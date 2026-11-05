@@ -1,3 +1,7 @@
+# KalshiLens
+
+C++17 and Python prediction-market research with order-book depth, VWAP, fee-aware scenarios and robust anomaly monitoring.
+
 # KalshiLens — automatic price monitor
 
 **Start with [START_MONITOR.md](START_MONITOR.md) for the new continuously updating anomaly dashboard.** It adds rolling median/MAD detection, outlier quarantine, repeated-observation confirmation, persistent-move resets, expiring external forecast inputs, full-size fee-adjusted gaps and live quality status. The new local dashboard requires Python 3 with only its standard library; the collector and analytics remain C++17.
