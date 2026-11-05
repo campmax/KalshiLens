@@ -1,0 +1,1230 @@
+{
+  "completed_at": "2026-10-02T04:14:28Z",
+  "coverage": {
+    "discovered": 12,
+    "selected": 12,
+    "selection": "Invented fixtures including deliberate data-quality failures",
+    "truncated": false
+  },
+  "records": [
+    {
+      "book_request_ms": 25,
+      "errors": [],
+      "event": {
+        "event_ticker": "DEMO-E1",
+        "mutually_exclusive": false,
+        "series_ticker": "DEMO-SERIES"
+      },
+      "market": {
+        "close_time": "2030-01-01T00:00:00Z",
+        "event_ticker": "DEMO-E1",
+        "last_price_dollars": "0.4100",
+        "market_type": "binary",
+        "notional_value_dollars": "1.0000",
+        "open_interest_fp": "3500.00",
+        "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+        "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+        "status": "active",
+        "ticker": "DEMO-1",
+        "title": "Aurora mission launches this month?",
+        "volume_24h_fp": "700.00",
+        "volume_fp": "2500.00",
+        "yes_sub_title": "Illustrative binary outcome"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [
+            [
+              "0.5800",
+              "26.00"
+            ],
+            [
+              "0.5700",
+              "41.00"
+            ],
+            [
+              "0.5600",
+              "56.00"
+            ],
+            [
+              "0.5500",
+              "71.00"
+            ],
+            [
+              "0.5400",
+              "86.00"
+            ],
+            [
+              "0.5300",
+              "101.00"
+            ],
+            [
+              "0.5200",
+              "116.00"
+            ],
+            [
+              "0.5100",
+              "131.00"
+            ]
+          ],
+          "yes_dollars": [
+            [
+              "0.4000",
+              "25.00"
+            ],
+            [
+              "0.3900",
+              "40.00"
+            ],
+            [
+              "0.3800",
+              "55.00"
+            ],
+            [
+              "0.3700",
+              "70.00"
+            ],
+            [
+              "0.3600",
+              "85.00"
+            ],
+            [
+              "0.3500",
+              "100.00"
+            ],
+            [
+              "0.3400",
+              "115.00"
+            ],
+            [
+              "0.3300",
+              "130.00"
+            ]
+          ]
+        }
+      },
+      "received_ms": 1790914468115,
+      "series": {
+        "category": "Science",
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "ticker": "DEMO-SERIES"
+      }
+    },
+    {
+      "book_request_ms": 25,
+      "errors": [],
+      "event": {
+        "event_ticker": "DEMO-FINAL",
+        "mutually_exclusive": true,
+        "series_ticker": "DEMO-SERIES"
+      },
+      "market": {
+        "close_time": "2030-01-01T00:00:00Z",
+        "event_ticker": "DEMO-FINAL",
+        "last_price_dollars": "0.4100",
+        "market_type": "binary",
+        "notional_value_dollars": "1.0000",
+        "open_interest_fp": "3500.00",
+        "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+        "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+        "status": "active",
+        "ticker": "DEMO-2",
+        "title": "Harbor team wins the final?",
+        "volume_24h_fp": "782.00",
+        "volume_fp": "3212.00",
+        "yes_sub_title": "Illustrative binary outcome"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [
+            [
+              "0.5800",
+              "26.00"
+            ],
+            [
+              "0.5700",
+              "41.00"
+            ],
+            [
+              "0.5600",
+              "56.00"
+            ],
+            [
+              "0.5500",
+              "71.00"
+            ],
+            [
+              "0.5400",
+              "86.00"
+            ],
+            [
+              "0.5300",
+              "101.00"
+            ],
+            [
+              "0.5200",
+              "116.00"
+            ],
+            [
+              "0.5100",
+              "131.00"
+            ]
+          ],
+          "yes_dollars": [
+            [
+              "0.4000",
+              "25.00"
+            ],
+            [
+              "0.3900",
+              "40.00"
+            ],
+            [
+              "0.3800",
+              "55.00"
+            ],
+            [
+              "0.3700",
+              "70.00"
+            ],
+            [
+              "0.3600",
+              "85.00"
+            ],
+            [
+              "0.3500",
+              "100.00"
+            ],
+            [
+              "0.3400",
+              "115.00"
+            ],
+            [
+              "0.3300",
+              "130.00"
+            ]
+          ]
+        }
+      },
+      "received_ms": 1790914468065,
+      "series": {
+        "category": "Sports",
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "ticker": "DEMO-SERIES"
+      }
+    },
+    {
+      "book_request_ms": 25,
+      "errors": [],
+      "event": {
+        "event_ticker": "DEMO-FINAL",
+        "mutually_exclusive": true,
+        "series_ticker": "DEMO-SERIES"
+      },
+      "market": {
+        "close_time": "2030-01-01T00:00:00Z",
+        "event_ticker": "DEMO-FINAL",
+        "last_price_dollars": "0.4100",
+        "market_type": "binary",
+        "notional_value_dollars": "1.0000",
+        "open_interest_fp": "3500.00",
+        "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+        "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+        "status": "active",
+        "ticker": "DEMO-3",
+        "title": "Valley team wins the final?",
+        "volume_24h_fp": "864.00",
+        "volume_fp": "3924.00",
+        "yes_sub_title": "Illustrative binary outcome"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [
+            [
+              "0.5800",
+              "26.00"
+            ],
+            [
+              "0.5700",
+              "41.00"
+            ],
+            [
+              "0.5600",
+              "56.00"
+            ],
+            [
+              "0.5500",
+              "71.00"
+            ],
+            [
+              "0.5400",
+              "86.00"
+            ],
+            [
+              "0.5300",
+              "101.00"
+            ],
+            [
+              "0.5200",
+              "116.00"
+            ],
+            [
+              "0.5100",
+              "131.00"
+            ]
+          ],
+          "yes_dollars": [
+            [
+              "0.4000",
+              "25.00"
+            ],
+            [
+              "0.3900",
+              "40.00"
+            ],
+            [
+              "0.3800",
+              "55.00"
+            ],
+            [
+              "0.3700",
+              "70.00"
+            ],
+            [
+              "0.3600",
+              "85.00"
+            ],
+            [
+              "0.3500",
+              "100.00"
+            ],
+            [
+              "0.3400",
+              "115.00"
+            ],
+            [
+              "0.3300",
+              "130.00"
+            ]
+          ]
+        }
+      },
+      "received_ms": 1790914468015,
+      "series": {
+        "category": "Science",
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "ticker": "DEMO-SERIES"
+      }
+    },
+    {
+      "book_request_ms": 25,
+      "errors": [],
+      "event": {
+        "event_ticker": "DEMO-FINAL",
+        "mutually_exclusive": true,
+        "series_ticker": "DEMO-SERIES"
+      },
+      "market": {
+        "close_time": "2030-01-01T00:00:00Z",
+        "event_ticker": "DEMO-FINAL",
+        "last_price_dollars": "0.4100",
+        "market_type": "binary",
+        "notional_value_dollars": "1.0000",
+        "open_interest_fp": "3500.00",
+        "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+        "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+        "status": "active",
+        "ticker": "DEMO-4",
+        "title": "Summit team wins the final?",
+        "volume_24h_fp": "946.00",
+        "volume_fp": "4636.00",
+        "yes_sub_title": "Illustrative binary outcome"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [
+            [
+              "0.5800",
+              "26.00"
+            ],
+            [
+              "0.5700",
+              "41.00"
+            ],
+            [
+              "0.5600",
+              "56.00"
+            ],
+            [
+              "0.5500",
+              "71.00"
+            ],
+            [
+              "0.5400",
+              "86.00"
+            ],
+            [
+              "0.5300",
+              "101.00"
+            ],
+            [
+              "0.5200",
+              "116.00"
+            ],
+            [
+              "0.5100",
+              "131.00"
+            ]
+          ],
+          "yes_dollars": [
+            [
+              "0.4000",
+              "25.00"
+            ],
+            [
+              "0.3900",
+              "40.00"
+            ],
+            [
+              "0.3800",
+              "55.00"
+            ],
+            [
+              "0.3700",
+              "70.00"
+            ],
+            [
+              "0.3600",
+              "85.00"
+            ],
+            [
+              "0.3500",
+              "100.00"
+            ],
+            [
+              "0.3400",
+              "115.00"
+            ],
+            [
+              "0.3300",
+              "130.00"
+            ]
+          ]
+        }
+      },
+      "received_ms": 1790914467965,
+      "series": {
+        "category": "Sports",
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "ticker": "DEMO-SERIES"
+      }
+    },
+    {
+      "book_request_ms": 25,
+      "errors": [],
+      "event": {
+        "event_ticker": "DEMO-E5",
+        "mutually_exclusive": false,
+        "series_ticker": "DEMO-SERIES"
+      },
+      "market": {
+        "close_time": "2030-01-01T00:00:00Z",
+        "event_ticker": "DEMO-E5",
+        "last_price_dollars": "0.6100",
+        "market_type": "binary",
+        "notional_value_dollars": "1.0000",
+        "open_interest_fp": "3500.00",
+        "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+        "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+        "status": "active",
+        "ticker": "DEMO-5",
+        "title": "City temperature exceeds 80 degrees?",
+        "volume_24h_fp": "1028.00",
+        "volume_fp": "5348.00",
+        "yes_sub_title": "Illustrative binary outcome"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [
+            [
+              "0.3800",
+              "26.00"
+            ],
+            [
+              "0.3700",
+              "41.00"
+            ],
+            [
+              "0.3600",
+              "56.00"
+            ],
+            [
+              "0.3500",
+              "71.00"
+            ],
+            [
+              "0.3400",
+              "86.00"
+            ],
+            [
+              "0.3300",
+              "101.00"
+            ],
+            [
+              "0.3200",
+              "116.00"
+            ],
+            [
+              "0.3100",
+              "131.00"
+            ]
+          ],
+          "yes_dollars": [
+            [
+              "0.6000",
+              "25.00"
+            ],
+            [
+              "0.5900",
+              "40.00"
+            ],
+            [
+              "0.5800",
+              "55.00"
+            ],
+            [
+              "0.5700",
+              "70.00"
+            ],
+            [
+              "0.5600",
+              "85.00"
+            ],
+            [
+              "0.5500",
+              "100.00"
+            ],
+            [
+              "0.5400",
+              "115.00"
+            ],
+            [
+              "0.5300",
+              "130.00"
+            ]
+          ]
+        }
+      },
+      "received_ms": 1790914467915,
+      "series": {
+        "category": "Science",
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "ticker": "DEMO-SERIES"
+      }
+    },
+    {
+      "book_request_ms": 25,
+      "errors": [],
+      "event": {
+        "event_ticker": "DEMO-E6",
+        "mutually_exclusive": false,
+        "series_ticker": "DEMO-SERIES"
+      },
+      "market": {
+        "close_time": "2030-01-01T00:00:00Z",
+        "event_ticker": "DEMO-E6",
+        "last_price_dollars": "0.4100",
+        "market_type": "binary",
+        "notional_value_dollars": "1.0000",
+        "open_interest_fp": "3500.00",
+        "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+        "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+        "status": "active",
+        "ticker": "DEMO-6",
+        "title": "City temperature exceeds 90 degrees?",
+        "volume_24h_fp": "1110.00",
+        "volume_fp": "6060.00",
+        "yes_sub_title": "Illustrative binary outcome"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [
+            [
+              "0.5800",
+              "26.00"
+            ],
+            [
+              "0.5700",
+              "41.00"
+            ],
+            [
+              "0.5600",
+              "56.00"
+            ],
+            [
+              "0.5500",
+              "71.00"
+            ],
+            [
+              "0.5400",
+              "86.00"
+            ],
+            [
+              "0.5300",
+              "101.00"
+            ],
+            [
+              "0.5200",
+              "116.00"
+            ],
+            [
+              "0.5100",
+              "131.00"
+            ]
+          ],
+          "yes_dollars": [
+            [
+              "0.4000",
+              "25.00"
+            ],
+            [
+              "0.3900",
+              "40.00"
+            ],
+            [
+              "0.3800",
+              "55.00"
+            ],
+            [
+              "0.3700",
+              "70.00"
+            ],
+            [
+              "0.3600",
+              "85.00"
+            ],
+            [
+              "0.3500",
+              "100.00"
+            ],
+            [
+              "0.3400",
+              "115.00"
+            ],
+            [
+              "0.3300",
+              "130.00"
+            ]
+          ]
+        }
+      },
+      "received_ms": 1790914467865,
+      "series": {
+        "category": "Sports",
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "ticker": "DEMO-SERIES"
+      }
+    },
+    {
+      "book_request_ms": 25,
+      "errors": [],
+      "event": {
+        "event_ticker": "DEMO-E7",
+        "mutually_exclusive": false,
+        "series_ticker": "DEMO-SERIES"
+      },
+      "market": {
+        "close_time": "2030-01-01T00:00:00Z",
+        "event_ticker": "DEMO-E7",
+        "last_price_dollars": "0.4600",
+        "market_type": "binary",
+        "notional_value_dollars": "1.0000",
+        "open_interest_fp": "3500.00",
+        "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+        "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+        "status": "active",
+        "ticker": "DEMO-7",
+        "title": "New battery achieves its target?",
+        "volume_24h_fp": "1192.00",
+        "volume_fp": "6772.00",
+        "yes_sub_title": "Illustrative binary outcome"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [
+            [
+              "0.5300",
+              "26.00"
+            ],
+            [
+              "0.5200",
+              "41.00"
+            ],
+            [
+              "0.5100",
+              "56.00"
+            ],
+            [
+              "0.5000",
+              "71.00"
+            ],
+            [
+              "0.4900",
+              "86.00"
+            ],
+            [
+              "0.4800",
+              "101.00"
+            ],
+            [
+              "0.4700",
+              "116.00"
+            ],
+            [
+              "0.4600",
+              "131.00"
+            ]
+          ],
+          "yes_dollars": [
+            [
+              "0.4500",
+              "25.00"
+            ],
+            [
+              "0.4400",
+              "40.00"
+            ],
+            [
+              "0.4300",
+              "55.00"
+            ],
+            [
+              "0.4200",
+              "70.00"
+            ],
+            [
+              "0.4100",
+              "85.00"
+            ],
+            [
+              "0.4000",
+              "100.00"
+            ],
+            [
+              "0.3900",
+              "115.00"
+            ],
+            [
+              "0.3800",
+              "130.00"
+            ]
+          ]
+        }
+      },
+      "received_ms": 1790914467815,
+      "series": {
+        "category": "Science",
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "ticker": "DEMO-SERIES"
+      }
+    },
+    {
+      "book_request_ms": 25,
+      "errors": [],
+      "event": {
+        "event_ticker": "DEMO-E8",
+        "mutually_exclusive": false,
+        "series_ticker": "DEMO-SERIES"
+      },
+      "market": {
+        "close_time": "2030-01-01T00:00:00Z",
+        "event_ticker": "DEMO-E8",
+        "last_price_dollars": "0.5100",
+        "market_type": "binary",
+        "notional_value_dollars": "1.0000",
+        "open_interest_fp": "3500.00",
+        "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+        "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+        "status": "active",
+        "ticker": "DEMO-8",
+        "title": "One-sided example market?",
+        "volume_24h_fp": "1274.00",
+        "volume_fp": "7484.00",
+        "yes_sub_title": "Illustrative binary outcome"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [
+            [
+              "0.4800",
+              "26.00"
+            ],
+            [
+              "0.4700",
+              "41.00"
+            ],
+            [
+              "0.4600",
+              "56.00"
+            ],
+            [
+              "0.4500",
+              "71.00"
+            ],
+            [
+              "0.4400",
+              "86.00"
+            ],
+            [
+              "0.4300",
+              "101.00"
+            ],
+            [
+              "0.4200",
+              "116.00"
+            ],
+            [
+              "0.4100",
+              "131.00"
+            ]
+          ],
+          "yes_dollars": []
+        }
+      },
+      "received_ms": 1790914467765,
+      "series": {
+        "category": "Sports",
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "ticker": "DEMO-SERIES"
+      }
+    },
+    {
+      "book_request_ms": 25,
+      "errors": [],
+      "event": {
+        "event_ticker": "DEMO-E9",
+        "mutually_exclusive": false,
+        "series_ticker": "DEMO-SERIES"
+      },
+      "market": {
+        "close_time": "2030-01-01T00:00:00Z",
+        "event_ticker": "DEMO-E9",
+        "last_price_dollars": "0.5600",
+        "market_type": "binary",
+        "notional_value_dollars": "1.0000",
+        "open_interest_fp": "3500.00",
+        "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+        "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+        "status": "active",
+        "ticker": "DEMO-9",
+        "title": "Unknown fee schedule example?",
+        "volume_24h_fp": "1356.00",
+        "volume_fp": "8196.00",
+        "yes_sub_title": "Illustrative binary outcome"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [
+            [
+              "0.4300",
+              "26.00"
+            ],
+            [
+              "0.4200",
+              "41.00"
+            ],
+            [
+              "0.4100",
+              "56.00"
+            ],
+            [
+              "0.4000",
+              "71.00"
+            ],
+            [
+              "0.3900",
+              "86.00"
+            ],
+            [
+              "0.3800",
+              "101.00"
+            ],
+            [
+              "0.3700",
+              "116.00"
+            ],
+            [
+              "0.3600",
+              "131.00"
+            ]
+          ],
+          "yes_dollars": [
+            [
+              "0.5500",
+              "25.00"
+            ],
+            [
+              "0.5400",
+              "40.00"
+            ],
+            [
+              "0.5300",
+              "55.00"
+            ],
+            [
+              "0.5200",
+              "70.00"
+            ],
+            [
+              "0.5100",
+              "85.00"
+            ],
+            [
+              "0.5000",
+              "100.00"
+            ],
+            [
+              "0.4900",
+              "115.00"
+            ],
+            [
+              "0.4800",
+              "130.00"
+            ]
+          ]
+        }
+      },
+      "received_ms": 1790914467715,
+      "series": {
+        "category": "Science",
+        "fee_multiplier": 1,
+        "fee_type": "flat",
+        "ticker": "DEMO-SERIES"
+      }
+    },
+    {
+      "book_request_ms": 25,
+      "errors": [],
+      "event": {
+        "event_ticker": "DEMO-E10",
+        "mutually_exclusive": false,
+        "series_ticker": "DEMO-SERIES"
+      },
+      "market": {
+        "close_time": "2030-01-01T00:00:00Z",
+        "event_ticker": "DEMO-E10",
+        "last_price_dollars": "0.6100",
+        "market_type": "binary",
+        "notional_value_dollars": "1.0000",
+        "open_interest_fp": "3500.00",
+        "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+        "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+        "status": "active",
+        "ticker": "DEMO-10",
+        "title": "Crossed-book example?",
+        "volume_24h_fp": "1438.00",
+        "volume_fp": "8908.00",
+        "yes_sub_title": "Illustrative binary outcome"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [
+            [
+              "0.4100",
+              "26.00"
+            ],
+            [
+              "0.4000",
+              "41.00"
+            ],
+            [
+              "0.3900",
+              "56.00"
+            ],
+            [
+              "0.3800",
+              "71.00"
+            ],
+            [
+              "0.3700",
+              "86.00"
+            ],
+            [
+              "0.3600",
+              "101.00"
+            ],
+            [
+              "0.3500",
+              "116.00"
+            ],
+            [
+              "0.3400",
+              "131.00"
+            ]
+          ],
+          "yes_dollars": [
+            [
+              "0.6000",
+              "25.00"
+            ],
+            [
+              "0.5900",
+              "40.00"
+            ],
+            [
+              "0.5800",
+              "55.00"
+            ],
+            [
+              "0.5700",
+              "70.00"
+            ],
+            [
+              "0.5600",
+              "85.00"
+            ],
+            [
+              "0.5500",
+              "100.00"
+            ],
+            [
+              "0.5400",
+              "115.00"
+            ],
+            [
+              "0.5300",
+              "130.00"
+            ]
+          ]
+        }
+      },
+      "received_ms": 1790914467665,
+      "series": {
+        "category": "Sports",
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "ticker": "DEMO-SERIES"
+      }
+    },
+    {
+      "book_request_ms": 25,
+      "errors": [],
+      "event": {
+        "event_ticker": "DEMO-E11",
+        "mutually_exclusive": false,
+        "series_ticker": "DEMO-SERIES"
+      },
+      "market": {
+        "close_time": "2030-01-01T00:00:00Z",
+        "event_ticker": "DEMO-E11",
+        "last_price_dollars": "0.4100",
+        "market_type": "binary",
+        "notional_value_dollars": "1.0000",
+        "open_interest_fp": "3500.00",
+        "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+        "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+        "status": "active",
+        "ticker": "DEMO-11",
+        "title": "Thin liquidity example?",
+        "volume_24h_fp": "1520.00",
+        "volume_fp": "9620.00",
+        "yes_sub_title": "Illustrative binary outcome"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [
+            [
+              "0.5800",
+              "1.25"
+            ],
+            [
+              "0.5700",
+              "1.25"
+            ],
+            [
+              "0.5600",
+              "1.25"
+            ],
+            [
+              "0.5500",
+              "1.25"
+            ],
+            [
+              "0.5400",
+              "1.25"
+            ],
+            [
+              "0.5300",
+              "1.25"
+            ],
+            [
+              "0.5200",
+              "1.25"
+            ],
+            [
+              "0.5100",
+              "1.25"
+            ]
+          ],
+          "yes_dollars": [
+            [
+              "0.4000",
+              "0.25"
+            ],
+            [
+              "0.3900",
+              "0.25"
+            ],
+            [
+              "0.3800",
+              "0.25"
+            ],
+            [
+              "0.3700",
+              "0.25"
+            ],
+            [
+              "0.3600",
+              "0.25"
+            ],
+            [
+              "0.3500",
+              "0.25"
+            ],
+            [
+              "0.3400",
+              "0.25"
+            ],
+            [
+              "0.3300",
+              "0.25"
+            ]
+          ]
+        }
+      },
+      "received_ms": 1790914467615,
+      "series": {
+        "category": "Science",
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "ticker": "DEMO-SERIES"
+      }
+    },
+    {
+      "book_request_ms": 25,
+      "errors": [],
+      "event": {
+        "event_ticker": "DEMO-E12",
+        "mutually_exclusive": false,
+        "series_ticker": "DEMO-SERIES"
+      },
+      "market": {
+        "close_time": "2030-01-01T00:00:00Z",
+        "event_ticker": "DEMO-E12",
+        "last_price_dollars": "0.4600",
+        "market_type": "binary",
+        "notional_value_dollars": "1.0000",
+        "open_interest_fp": "3500.00",
+        "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+        "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+        "status": "active",
+        "ticker": "DEMO-12",
+        "title": "Archived observation example?",
+        "volume_24h_fp": "1602.00",
+        "volume_fp": "10332.00",
+        "yes_sub_title": "Illustrative binary outcome"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [
+            [
+              "0.5300",
+              "26.00"
+            ],
+            [
+              "0.5200",
+              "41.00"
+            ],
+            [
+              "0.5100",
+              "56.00"
+            ],
+            [
+              "0.5000",
+              "71.00"
+            ],
+            [
+              "0.4900",
+              "86.00"
+            ],
+            [
+              "0.4800",
+              "101.00"
+            ],
+            [
+              "0.4700",
+              "116.00"
+            ],
+            [
+              "0.4600",
+              "131.00"
+            ]
+          ],
+          "yes_dollars": [
+            [
+              "0.4500",
+              "25.00"
+            ],
+            [
+              "0.4400",
+              "40.00"
+            ],
+            [
+              "0.4300",
+              "55.00"
+            ],
+            [
+              "0.4200",
+              "70.00"
+            ],
+            [
+              "0.4100",
+              "85.00"
+            ],
+            [
+              "0.4000",
+              "100.00"
+            ],
+            [
+              "0.3900",
+              "115.00"
+            ],
+            [
+              "0.3800",
+              "130.00"
+            ]
+          ]
+        }
+      },
+      "received_ms": 1790914348115,
+      "series": {
+        "category": "Sports",
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "ticker": "DEMO-SERIES"
+      }
+    }
+  ],
+  "schema": "kalshilens.snapshot.v1",
+  "source": "SYNTHETIC DEMONSTRATION - no real Kalshi quotes",
+  "started_at": "2026-10-02T04:14:28Z",
+  "synthetic": true
+}

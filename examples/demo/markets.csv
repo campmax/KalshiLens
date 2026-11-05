@@ -1,0 +1,13 @@
+ticker,title,event_ticker,category,status,mid,spread,yes_bid,yes_ask,no_bid,no_ask,volume_24h,open_interest,imbalance,valid,stale,captured_ms
+"DEMO-1","Aurora mission launches this month?","DEMO-E1","Science","active","0.41","0.02","0.4","0.42","0.58","0.6","700.0","3500.0","-0.012345679012345678","true","false","1790914468115"
+"DEMO-2","Harbor team wins the final?","DEMO-FINAL","Sports","active","0.41","0.02","0.4","0.42","0.58","0.6","782.0","3500.0","-0.012345679012345678","true","false","1790914468065"
+"DEMO-3","Valley team wins the final?","DEMO-FINAL","Science","active","0.41","0.02","0.4","0.42","0.58","0.6","864.0","3500.0","-0.012345679012345678","true","false","1790914468015"
+"DEMO-4","Summit team wins the final?","DEMO-FINAL","Sports","active","0.41","0.02","0.4","0.42","0.58","0.6","946.0","3500.0","-0.012345679012345678","true","false","1790914467965"
+"DEMO-5","City temperature exceeds 80 degrees?","DEMO-E5","Science","active","0.61","0.02","0.6","0.62","0.38","0.4","1028.0","3500.0","-0.012345679012345678","true","false","1790914467915"
+"DEMO-6","City temperature exceeds 90 degrees?","DEMO-E6","Sports","active","0.41","0.02","0.4","0.42","0.58","0.6","1110.0","3500.0","-0.012345679012345678","true","false","1790914467865"
+"DEMO-7","New battery achieves its target?","DEMO-E7","Science","active","0.46","0.02","0.45","0.47","0.53","0.55","1192.0","3500.0","-0.012345679012345678","true","false","1790914467815"
+"DEMO-8","One-sided example market?","DEMO-E8","Sports","active","","","","0.52","0.48","","1274.0","3500.0","","true","false","1790914467765"
+"DEMO-9","Unknown fee schedule example?","DEMO-E9","Science","active","0.56","0.02","0.55","0.57","0.43","0.45","1356.0","3500.0","-0.012345679012345678","true","false","1790914467715"
+"DEMO-10","Crossed-book example?","DEMO-E10","Sports","active","0.595","-0.01","0.6","0.59","0.41","0.4","1438.0","3500.0","-0.012345679012345678","false","false","1790914467665"
+"DEMO-11","Thin liquidity example?","DEMO-E11","Science","active","0.41","0.02","0.4","0.42","0.58","0.6","1520.0","3500.0","-0.6666666666666666","true","false","1790914467615"
+"DEMO-12","Archived observation example?","DEMO-E12","Sports","active","0.46","0.02","0.45","0.47","0.53","0.55","1602.0","3500.0","-0.012345679012345678","true","true","1790914348115"

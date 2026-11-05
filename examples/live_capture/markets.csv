@@ -1,0 +1,4 @@
+ticker,title,event_ticker,category,status,mid,spread,yes_bid,yes_ask,no_bid,no_ask,volume_24h,open_interest,imbalance,valid,stale,captured_ms
+"KXHIGHNY-26OCT01-B75.5","Will the maximum temperature be 75-76° on Oct 1, 2026?","KXHIGHNY-26OCT01","Unclassified","active","","","0.98","","","0.02","46697.28","20809.09","","true","false","1790914159451"
+"KXHIGHNY-26OCT01-B77.5","Will the maximum temperature be 77-78° on Oct 1, 2026?","KXHIGHNY-26OCT01","Climate and Weather","active","0.02","0.02","0.01","0.03","0.97","0.99","36902.52","20101.53","-0.7687689913288371","true","false","1790914173618"
+"KXHIGHNY-26OCT01-B79.5","Will the maximum temperature be 79-80° on Oct 1, 2026?","KXHIGHNY-26OCT01","Climate and Weather","active","","","","0.01","0.99","","33147.11","27587.57","","true","false","1790914178274"

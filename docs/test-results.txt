@@ -1,0 +1,53 @@
+PASS fixed point preserves subpenny price
+PASS fixed point preserves fractional contracts
+PASS excess precision never silently rounds
+PASS malformed and negative fixed point reject
+PASS book sorting and duplicate aggregation
+PASS YES ask derives from NO bid
+PASS NO ask derives from YES bid
+PASS zero quantity contributes no liquidity
+PASS legacy or missing orderbook is rejected
+PASS out-of-range price rejected
+PASS direct-member fee at 50 cents
+PASS FCM fee aligns complete balance change
+PASS 100 contracts at 50 cents costs 1.75 fee
+PASS fee multiplier applies before rounding
+PASS zero multiplier no invented fee at aligned price
+PASS fee accumulator rebates over-rounding
+PASS fractional notional is exact microdollars
+PASS depth walk computes multiple levels
+PASS insufficient depth remains partial
+PASS unknown fees remain null
+PASS event fee overrides series
+PASS flat fee type is not guessed
+PASS missing event metadata suppresses known fee claim
+PASS negative fee multiplier rejects
+PASS crossed book blocks execution
+PASS one-sided book has no invented midpoint
+PASS stale snapshot cannot support structural candidate
+PASS future timestamp is flagged
+PASS non-dollar notional rejected
+PASS inactive markets cannot produce execution estimates
+PASS EV uses user probability not midpoint
+PASS NO scenario complements YES probability
+PASS partial fill cannot masquerade as full-size EV
+PASS invalid probabilities reject
+PASS duplicate snapshot ticker rejects
+PASS mutual exclusion does not assume exhaustive YES basket
+PASS unreviewed implication never evaluated
+PASS reviewed implication requires rationale
+PASS cross-leg skew suppresses bound
+PASS unsupported snapshot schema rejects
+PASS perfect forecasts have zero Brier
+PASS 50 percent forecasts have Brier 0.25
+PASS duplicate forecast IDs rejected
+PASS invalid settlement outcome rejected
+  1/2  A
+  2/2  B
+PASS pagination coverage and metadata caching
+PASS repeating pagination cursor rejects
+  1/1  DEMO-1
+PASS API errors retain an explicitly invalid market
+PASS URL encoding prevents query injection
+PASS snapshot comparison measures quote change
+49 passed; 0 failed

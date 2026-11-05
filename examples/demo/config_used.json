@@ -1,0 +1,17 @@
+{
+  "beliefs": {},
+  "command": "demo",
+  "delay_ms": 300,
+  "event": "",
+  "interval_after_capture_seconds": 30,
+  "max_markets": 24,
+  "max_skew_seconds": 10.0,
+  "member": "direct",
+  "pages": 2,
+  "quantity": 100.0,
+  "relationships": [],
+  "samples": 1,
+  "series": "",
+  "stale_after_seconds": 60.0,
+  "ticker": ""
+}

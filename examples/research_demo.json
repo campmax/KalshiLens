@@ -1,0 +1,22 @@
+{
+  "quantity": 100,
+  "member": "direct",
+  "max_skew_seconds": 10,
+  "stale_after_seconds": 60,
+  "beliefs": {
+    "DEMO-1": {
+      "probability": 0.6,
+      "uncertainty": 0.1,
+      "source": "Invented educational assumption, not a predictive model"
+    }
+  },
+  "relationships": [
+    {
+      "type": "implies",
+      "antecedent": "DEMO-1",
+      "consequent": "DEMO-2",
+      "reviewed": false,
+      "rationale": "Placeholder only. Review identical observation date, rules, source and threshold implication before enabling."
+    }
+  ]
+}

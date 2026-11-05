@@ -1,0 +1,1747 @@
+{
+  "balance_precision": 0.0001,
+  "coverage": {
+    "discovered": 12,
+    "event_filter": "",
+    "pages": 1,
+    "selected": 3,
+    "selection": "Highest 24-hour volume within the scanned pages; NOT an exchange-wide top-volume ranking",
+    "series_filter": "KXHIGHNY",
+    "ticker_filter": "",
+    "truncated": true
+  },
+  "generated_at": "2026-10-02T04:09:38Z",
+  "history": [
+    {
+      "mid": 0.02,
+      "ticker": "KXHIGHNY-26OCT01-B77.5",
+      "time": "2026-10-02T04:09:33Z"
+    }
+  ],
+  "limitations": [
+    "Prices are not objective probabilities.",
+    "Displayed depth can cancel before any hypothetical execution.",
+    "Each price level is modeled as one fill; actual fill fragmentation and fee rebates can differ.",
+    "Series/event fee metadata is a snapshot; account-specific discounts and exceptional schedules require verification.",
+    "Cross-market observations are sequential, not simultaneous. No orders are sent."
+  ],
+  "markets": [
+    {
+      "age_seconds": 18.824,
+      "belief": null,
+      "captured_ms": 1790914159451,
+      "category": "Unclassified",
+      "close_time": "2026-10-02T05:00:00Z",
+      "event_ticker": "KXHIGHNY-26OCT01",
+      "executable_snapshot": false,
+      "fee": {
+        "known": false,
+        "multiplier": 0.0,
+        "source": "event fee overrides unavailable",
+        "type": ""
+      },
+      "imbalance": null,
+      "last_price": 0.98,
+      "mid": null,
+      "no_ask": 0.02,
+      "no_asks": [
+        {
+          "price": 0.02,
+          "quantity": 78.5
+        },
+        {
+          "price": 0.04,
+          "quantity": 367.37
+        },
+        {
+          "price": 0.12,
+          "quantity": 0.23
+        },
+        {
+          "price": 0.16,
+          "quantity": 5.0
+        },
+        {
+          "price": 0.44,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.52,
+          "quantity": 9.0
+        },
+        {
+          "price": 0.54,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.55,
+          "quantity": 780.0
+        },
+        {
+          "price": 0.59,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.6,
+          "quantity": 10.0
+        },
+        {
+          "price": 0.62,
+          "quantity": 10.0
+        },
+        {
+          "price": 0.63,
+          "quantity": 5.0
+        },
+        {
+          "price": 0.64,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.67,
+          "quantity": 6.0
+        },
+        {
+          "price": 0.69,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.73,
+          "quantity": 10.0
+        },
+        {
+          "price": 0.74,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.75,
+          "quantity": 8.0
+        },
+        {
+          "price": 0.79,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.8,
+          "quantity": 3.0
+        },
+        {
+          "price": 0.81,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.82,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.83,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.84,
+          "quantity": 22.86
+        },
+        {
+          "price": 0.85,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.86,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.87,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.88,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.89,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.9,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.91,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.92,
+          "quantity": 7.0
+        },
+        {
+          "price": 0.93,
+          "quantity": 38.0
+        },
+        {
+          "price": 0.94,
+          "quantity": 10.0
+        },
+        {
+          "price": 0.95,
+          "quantity": 16.0
+        },
+        {
+          "price": 0.96,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.97,
+          "quantity": 179.0
+        },
+        {
+          "price": 0.98,
+          "quantity": 82.0
+        },
+        {
+          "price": 0.99,
+          "quantity": 1654.28
+        }
+      ],
+      "no_bid": null,
+      "no_bids": [],
+      "open_interest": 20809.09,
+      "rules_primary": "If the maximum temperature recorded at New York City (CLINYC) for Oct 1, 2026, is between 75-76° fahrenheit according to The Weather Company, then the market resolves to Yes.",
+      "rules_secondary": "Not all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the maximum/minimum temperature as reported by the Weather Company.\n\nReading weather data\nPreliminary Weather Company data may be subject to rounding and conversion differences from the final reported value.\nUse caution when interpreting preliminary Weather Company readings.\n\nIf it is determined in the sole discretion of the Exchange that there is a material error in the initial non-preliminary publication, Expiration may be held until the publication of a non-materially-erroneous data revision or until the Expiration Date, whichever comes first. If no data is available at the end of this period, all markets will resolve to the last fair price determined by Kalshi. Please note, a status of \"Final\" on weather.com/kalshi is provided for convenience only, and does not guarantee data to be error-free and thus exempt from the above.",
+      "scenario_no": null,
+      "scenario_yes": null,
+      "selected": {
+        "no": {
+          "break_even": null,
+          "complete": true,
+          "cost": null,
+          "fee": null,
+          "filled": 100.0,
+          "levels": 2,
+          "notional": 2.43,
+          "requested": 100.0,
+          "vwap": 0.024300000000000002,
+          "worst_price": 0.04
+        },
+        "yes": {
+          "break_even": null,
+          "complete": false,
+          "cost": null,
+          "fee": null,
+          "filled": 0.0,
+          "levels": 0,
+          "notional": 0.0,
+          "requested": 100.0,
+          "vwap": null,
+          "worst_price": null
+        }
+      },
+      "series_ticker": "",
+      "sizes": [
+        {
+          "no": {
+            "break_even": null,
+            "complete": true,
+            "cost": null,
+            "fee": null,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.02,
+            "requested": 1.0,
+            "vwap": 0.02,
+            "worst_price": 0.02
+          },
+          "quantity": 1.0,
+          "yes": {
+            "break_even": null,
+            "complete": false,
+            "cost": null,
+            "fee": null,
+            "filled": 0.0,
+            "levels": 0,
+            "notional": 0.0,
+            "requested": 1.0,
+            "vwap": null,
+            "worst_price": null
+          }
+        },
+        {
+          "no": {
+            "break_even": null,
+            "complete": true,
+            "cost": null,
+            "fee": null,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 0.2,
+            "requested": 10.0,
+            "vwap": 0.02,
+            "worst_price": 0.02
+          },
+          "quantity": 10.0,
+          "yes": {
+            "break_even": null,
+            "complete": false,
+            "cost": null,
+            "fee": null,
+            "filled": 0.0,
+            "levels": 0,
+            "notional": 0.0,
+            "requested": 10.0,
+            "vwap": null,
+            "worst_price": null
+          }
+        },
+        {
+          "no": {
+            "break_even": null,
+            "complete": true,
+            "cost": null,
+            "fee": null,
+            "filled": 100.0,
+            "levels": 2,
+            "notional": 2.43,
+            "requested": 100.0,
+            "vwap": 0.024300000000000002,
+            "worst_price": 0.04
+          },
+          "quantity": 100.0,
+          "yes": {
+            "break_even": null,
+            "complete": false,
+            "cost": null,
+            "fee": null,
+            "filled": 0.0,
+            "levels": 0,
+            "notional": 0.0,
+            "requested": 100.0,
+            "vwap": null,
+            "worst_price": null
+          }
+        },
+        {
+          "no": {
+            "break_even": null,
+            "complete": true,
+            "cost": null,
+            "fee": null,
+            "filled": 1000.0,
+            "levels": 8,
+            "notional": 317.4974,
+            "requested": 1000.0,
+            "vwap": 0.31749740000000004,
+            "worst_price": 0.55
+          },
+          "quantity": 1000.0,
+          "yes": {
+            "break_even": null,
+            "complete": false,
+            "cost": null,
+            "fee": null,
+            "filled": 0.0,
+            "levels": 0,
+            "notional": 0.0,
+            "requested": 1000.0,
+            "vwap": null,
+            "worst_price": null
+          }
+        }
+      ],
+      "spread": null,
+      "stale": false,
+      "status": "active",
+      "subtitle": "75° to 76°",
+      "ticker": "KXHIGHNY-26OCT01-B75.5",
+      "title": "Will the maximum temperature be 75-76° on Oct 1, 2026?",
+      "valid": true,
+      "volume": 51551.82,
+      "volume_24h": 46697.28,
+      "warnings": [
+        "Metadata: HTTPS error: Timeout was reached",
+        "Fee-adjusted value unavailable: event fee overrides unavailable",
+        "One-sided or empty book; midpoint may be unavailable"
+      ],
+      "yes_ask": null,
+      "yes_asks": [],
+      "yes_bid": 0.98,
+      "yes_bids": [
+        {
+          "price": 0.98,
+          "quantity": 78.5
+        },
+        {
+          "price": 0.96,
+          "quantity": 367.37
+        },
+        {
+          "price": 0.88,
+          "quantity": 0.23
+        },
+        {
+          "price": 0.84,
+          "quantity": 5.0
+        },
+        {
+          "price": 0.56,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.48,
+          "quantity": 9.0
+        },
+        {
+          "price": 0.46,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.45,
+          "quantity": 780.0
+        },
+        {
+          "price": 0.41,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.4,
+          "quantity": 10.0
+        },
+        {
+          "price": 0.38,
+          "quantity": 10.0
+        },
+        {
+          "price": 0.37,
+          "quantity": 5.0
+        },
+        {
+          "price": 0.36,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.33,
+          "quantity": 6.0
+        },
+        {
+          "price": 0.31,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.27,
+          "quantity": 10.0
+        },
+        {
+          "price": 0.26,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.25,
+          "quantity": 8.0
+        },
+        {
+          "price": 0.21,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.2,
+          "quantity": 3.0
+        },
+        {
+          "price": 0.19,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.18,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.17,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.16,
+          "quantity": 22.86
+        },
+        {
+          "price": 0.15,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.14,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.13,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.12,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.11,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.1,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.09,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.08,
+          "quantity": 7.0
+        },
+        {
+          "price": 0.07,
+          "quantity": 38.0
+        },
+        {
+          "price": 0.06,
+          "quantity": 10.0
+        },
+        {
+          "price": 0.05,
+          "quantity": 16.0
+        },
+        {
+          "price": 0.04,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.03,
+          "quantity": 179.0
+        },
+        {
+          "price": 0.02,
+          "quantity": 82.0
+        },
+        {
+          "price": 0.01,
+          "quantity": 1654.28
+        }
+      ]
+    },
+    {
+      "age_seconds": 4.657,
+      "belief": null,
+      "captured_ms": 1790914173618,
+      "category": "Climate and Weather",
+      "close_time": "2026-10-02T05:00:00Z",
+      "event_ticker": "KXHIGHNY-26OCT01",
+      "executable_snapshot": true,
+      "fee": {
+        "known": true,
+        "multiplier": 1.0,
+        "source": "series metadata",
+        "type": "quadratic"
+      },
+      "imbalance": -0.7687689913288371,
+      "last_price": 0.04,
+      "mid": 0.02,
+      "no_ask": 0.99,
+      "no_asks": [
+        {
+          "price": 0.99,
+          "quantity": 78.0
+        }
+      ],
+      "no_bid": 0.97,
+      "no_bids": [
+        {
+          "price": 0.97,
+          "quantity": 111.57
+        },
+        {
+          "price": 0.96,
+          "quantity": 485.08
+        },
+        {
+          "price": 0.94,
+          "quantity": 65.29
+        },
+        {
+          "price": 0.93,
+          "quantity": 22.96
+        },
+        {
+          "price": 0.91,
+          "quantity": 42.52
+        },
+        {
+          "price": 0.9,
+          "quantity": 349.93
+        },
+        {
+          "price": 0.88,
+          "quantity": 249.93
+        },
+        {
+          "price": 0.85,
+          "quantity": 53.0
+        },
+        {
+          "price": 0.83,
+          "quantity": 118.31
+        },
+        {
+          "price": 0.81,
+          "quantity": 5.0
+        },
+        {
+          "price": 0.8,
+          "quantity": 15.0
+        },
+        {
+          "price": 0.75,
+          "quantity": 23.0
+        },
+        {
+          "price": 0.73,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.72,
+          "quantity": 72.86
+        },
+        {
+          "price": 0.7,
+          "quantity": 5.0
+        },
+        {
+          "price": 0.64,
+          "quantity": 194.31
+        },
+        {
+          "price": 0.6,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.58,
+          "quantity": 99.0
+        },
+        {
+          "price": 0.57,
+          "quantity": 691.02
+        },
+        {
+          "price": 0.54,
+          "quantity": 472.51
+        },
+        {
+          "price": 0.51,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.5,
+          "quantity": 5.0
+        },
+        {
+          "price": 0.49,
+          "quantity": 50.0
+        },
+        {
+          "price": 0.46,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.45,
+          "quantity": 11.0
+        },
+        {
+          "price": 0.42,
+          "quantity": 32.73
+        },
+        {
+          "price": 0.41,
+          "quantity": 16.0
+        },
+        {
+          "price": 0.39,
+          "quantity": 23.48
+        },
+        {
+          "price": 0.38,
+          "quantity": 30.0
+        },
+        {
+          "price": 0.36,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.35,
+          "quantity": 196.79
+        },
+        {
+          "price": 0.34,
+          "quantity": 50.0
+        },
+        {
+          "price": 0.32,
+          "quantity": 60.0
+        },
+        {
+          "price": 0.31,
+          "quantity": 17.0
+        },
+        {
+          "price": 0.3,
+          "quantity": 104.31
+        },
+        {
+          "price": 0.29,
+          "quantity": 75.0
+        },
+        {
+          "price": 0.28,
+          "quantity": 42.32
+        },
+        {
+          "price": 0.26,
+          "quantity": 191.0
+        },
+        {
+          "price": 0.25,
+          "quantity": 14.63
+        },
+        {
+          "price": 0.23,
+          "quantity": 105.0
+        },
+        {
+          "price": 0.21,
+          "quantity": 3.0
+        },
+        {
+          "price": 0.2,
+          "quantity": 198.6
+        },
+        {
+          "price": 0.19,
+          "quantity": 32.0
+        },
+        {
+          "price": 0.18,
+          "quantity": 143.94
+        },
+        {
+          "price": 0.17,
+          "quantity": 135.0
+        },
+        {
+          "price": 0.16,
+          "quantity": 8.02
+        },
+        {
+          "price": 0.14,
+          "quantity": 150.0
+        },
+        {
+          "price": 0.13,
+          "quantity": 5.79
+        },
+        {
+          "price": 0.11,
+          "quantity": 384.53
+        },
+        {
+          "price": 0.1,
+          "quantity": 6.73
+        },
+        {
+          "price": 0.08,
+          "quantity": 210.0
+        },
+        {
+          "price": 0.06,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.05,
+          "quantity": 241.22
+        },
+        {
+          "price": 0.04,
+          "quantity": 48.86
+        },
+        {
+          "price": 0.03,
+          "quantity": 139.3
+        },
+        {
+          "price": 0.02,
+          "quantity": 43.61
+        },
+        {
+          "price": 0.01,
+          "quantity": 744.07
+        }
+      ],
+      "open_interest": 20101.53,
+      "rules_primary": "If the maximum temperature recorded at New York City (CLINYC) for Oct 1, 2026, is between 77-78° fahrenheit according to The Weather Company, then the market resolves to Yes.",
+      "rules_secondary": "Not all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the maximum/minimum temperature as reported by the Weather Company.\n\nReading weather data\nPreliminary Weather Company data may be subject to rounding and conversion differences from the final reported value.\nUse caution when interpreting preliminary Weather Company readings.\n\nIf it is determined in the sole discretion of the Exchange that there is a material error in the initial non-preliminary publication, Expiration may be held until the publication of a non-materially-erroneous data revision or until the Expiration Date, whichever comes first. If no data is available at the end of this period, all markets will resolve to the last fair price determined by Kalshi. Please note, a status of \"Final\" on weather.com/kalshi is provided for convenience only, and does not guarantee data to be error-free and thus exempt from the above.",
+      "scenario_no": null,
+      "scenario_yes": null,
+      "selected": {
+        "no": {
+          "break_even": 0.9906935897435898,
+          "complete": false,
+          "cost": 77.2741,
+          "fee": 0.0541,
+          "filled": 78.0,
+          "levels": 1,
+          "notional": 77.22,
+          "requested": 100.0,
+          "vwap": 0.99,
+          "worst_price": 0.99
+        },
+        "yes": {
+          "break_even": 0.032037,
+          "complete": true,
+          "cost": 3.2037,
+          "fee": 0.2037,
+          "filled": 100.0,
+          "levels": 1,
+          "notional": 3.0,
+          "requested": 100.0,
+          "vwap": 0.03,
+          "worst_price": 0.03
+        }
+      },
+      "series_ticker": "KXHIGHNY",
+      "sizes": [
+        {
+          "no": {
+            "break_even": 0.9907,
+            "complete": true,
+            "cost": 0.9907,
+            "fee": 0.0007,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.99,
+            "requested": 1.0,
+            "vwap": 0.99,
+            "worst_price": 0.99
+          },
+          "quantity": 1.0,
+          "yes": {
+            "break_even": 0.0321,
+            "complete": true,
+            "cost": 0.0321,
+            "fee": 0.0021,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.03,
+            "requested": 1.0,
+            "vwap": 0.03,
+            "worst_price": 0.03
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.9907,
+            "complete": true,
+            "cost": 9.907,
+            "fee": 0.007,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 9.9,
+            "requested": 10.0,
+            "vwap": 0.99,
+            "worst_price": 0.99
+          },
+          "quantity": 10.0,
+          "yes": {
+            "break_even": 0.03204,
+            "complete": true,
+            "cost": 0.3204,
+            "fee": 0.0204,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 0.3,
+            "requested": 10.0,
+            "vwap": 0.03,
+            "worst_price": 0.03
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.9906935897435898,
+            "complete": false,
+            "cost": 77.2741,
+            "fee": 0.0541,
+            "filled": 78.0,
+            "levels": 1,
+            "notional": 77.22,
+            "requested": 100.0,
+            "vwap": 0.99,
+            "worst_price": 0.99
+          },
+          "quantity": 100.0,
+          "yes": {
+            "break_even": 0.032037,
+            "complete": true,
+            "cost": 3.2037,
+            "fee": 0.2037,
+            "filled": 100.0,
+            "levels": 1,
+            "notional": 3.0,
+            "requested": 100.0,
+            "vwap": 0.03,
+            "worst_price": 0.03
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.9906935897435898,
+            "complete": false,
+            "cost": 77.2741,
+            "fee": 0.0541,
+            "filled": 78.0,
+            "levels": 1,
+            "notional": 77.22,
+            "requested": 1000.0,
+            "vwap": 0.99,
+            "worst_price": 0.99
+          },
+          "quantity": 1000.0,
+          "yes": {
+            "break_even": 0.0632143,
+            "complete": true,
+            "cost": 63.2143,
+            "fee": 3.8546,
+            "filled": 1000.0,
+            "levels": 6,
+            "notional": 59.3597,
+            "requested": 1000.0,
+            "vwap": 0.059359699999999994,
+            "worst_price": 0.1
+          }
+        }
+      ],
+      "spread": 0.02,
+      "stale": false,
+      "status": "active",
+      "subtitle": "77° to 78°",
+      "ticker": "KXHIGHNY-26OCT01-B77.5",
+      "title": "Will the maximum temperature be 77-78° on Oct 1, 2026?",
+      "valid": true,
+      "volume": 40662.06,
+      "volume_24h": 36902.52,
+      "warnings": [],
+      "yes_ask": 0.03,
+      "yes_asks": [
+        {
+          "price": 0.03,
+          "quantity": 111.57
+        },
+        {
+          "price": 0.04,
+          "quantity": 485.08
+        },
+        {
+          "price": 0.06,
+          "quantity": 65.29
+        },
+        {
+          "price": 0.07,
+          "quantity": 22.96
+        },
+        {
+          "price": 0.09,
+          "quantity": 42.52
+        },
+        {
+          "price": 0.1,
+          "quantity": 349.93
+        },
+        {
+          "price": 0.12,
+          "quantity": 249.93
+        },
+        {
+          "price": 0.15,
+          "quantity": 53.0
+        },
+        {
+          "price": 0.17,
+          "quantity": 118.31
+        },
+        {
+          "price": 0.19,
+          "quantity": 5.0
+        },
+        {
+          "price": 0.2,
+          "quantity": 15.0
+        },
+        {
+          "price": 0.25,
+          "quantity": 23.0
+        },
+        {
+          "price": 0.27,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.28,
+          "quantity": 72.86
+        },
+        {
+          "price": 0.3,
+          "quantity": 5.0
+        },
+        {
+          "price": 0.36,
+          "quantity": 194.31
+        },
+        {
+          "price": 0.4,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.42,
+          "quantity": 99.0
+        },
+        {
+          "price": 0.43,
+          "quantity": 691.02
+        },
+        {
+          "price": 0.46,
+          "quantity": 472.51
+        },
+        {
+          "price": 0.49,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.5,
+          "quantity": 5.0
+        },
+        {
+          "price": 0.51,
+          "quantity": 50.0
+        },
+        {
+          "price": 0.54,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.55,
+          "quantity": 11.0
+        },
+        {
+          "price": 0.58,
+          "quantity": 32.73
+        },
+        {
+          "price": 0.59,
+          "quantity": 16.0
+        },
+        {
+          "price": 0.61,
+          "quantity": 23.48
+        },
+        {
+          "price": 0.62,
+          "quantity": 30.0
+        },
+        {
+          "price": 0.64,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.65,
+          "quantity": 196.79
+        },
+        {
+          "price": 0.66,
+          "quantity": 50.0
+        },
+        {
+          "price": 0.68,
+          "quantity": 60.0
+        },
+        {
+          "price": 0.69,
+          "quantity": 17.0
+        },
+        {
+          "price": 0.7,
+          "quantity": 104.31
+        },
+        {
+          "price": 0.71,
+          "quantity": 75.0
+        },
+        {
+          "price": 0.72,
+          "quantity": 42.32
+        },
+        {
+          "price": 0.74,
+          "quantity": 191.0
+        },
+        {
+          "price": 0.75,
+          "quantity": 14.63
+        },
+        {
+          "price": 0.77,
+          "quantity": 105.0
+        },
+        {
+          "price": 0.79,
+          "quantity": 3.0
+        },
+        {
+          "price": 0.8,
+          "quantity": 198.6
+        },
+        {
+          "price": 0.81,
+          "quantity": 32.0
+        },
+        {
+          "price": 0.82,
+          "quantity": 143.94
+        },
+        {
+          "price": 0.83,
+          "quantity": 135.0
+        },
+        {
+          "price": 0.84,
+          "quantity": 8.02
+        },
+        {
+          "price": 0.86,
+          "quantity": 150.0
+        },
+        {
+          "price": 0.87,
+          "quantity": 5.79
+        },
+        {
+          "price": 0.89,
+          "quantity": 384.53
+        },
+        {
+          "price": 0.9,
+          "quantity": 6.73
+        },
+        {
+          "price": 0.92,
+          "quantity": 210.0
+        },
+        {
+          "price": 0.94,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.95,
+          "quantity": 241.22
+        },
+        {
+          "price": 0.96,
+          "quantity": 48.86
+        },
+        {
+          "price": 0.97,
+          "quantity": 139.3
+        },
+        {
+          "price": 0.98,
+          "quantity": 43.61
+        },
+        {
+          "price": 0.99,
+          "quantity": 744.07
+        }
+      ],
+      "yes_bid": 0.01,
+      "yes_bids": [
+        {
+          "price": 0.01,
+          "quantity": 78.0
+        }
+      ]
+    },
+    {
+      "age_seconds": 0.001,
+      "belief": null,
+      "captured_ms": 1790914178274,
+      "category": "Climate and Weather",
+      "close_time": "2026-10-02T05:00:00Z",
+      "event_ticker": "KXHIGHNY-26OCT01",
+      "executable_snapshot": true,
+      "fee": {
+        "known": true,
+        "multiplier": 1.0,
+        "source": "series metadata",
+        "type": "quadratic"
+      },
+      "imbalance": null,
+      "last_price": 0.01,
+      "mid": null,
+      "no_ask": null,
+      "no_asks": [],
+      "no_bid": 0.99,
+      "no_bids": [
+        {
+          "price": 0.99,
+          "quantity": 17732.48
+        },
+        {
+          "price": 0.98,
+          "quantity": 561.0
+        },
+        {
+          "price": 0.97,
+          "quantity": 23.0
+        },
+        {
+          "price": 0.96,
+          "quantity": 4776.94
+        },
+        {
+          "price": 0.95,
+          "quantity": 15.0
+        },
+        {
+          "price": 0.94,
+          "quantity": 278.64
+        },
+        {
+          "price": 0.93,
+          "quantity": 3.0
+        },
+        {
+          "price": 0.92,
+          "quantity": 51.0
+        },
+        {
+          "price": 0.91,
+          "quantity": 3.0
+        },
+        {
+          "price": 0.9,
+          "quantity": 28.0
+        },
+        {
+          "price": 0.88,
+          "quantity": 48.0
+        },
+        {
+          "price": 0.85,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.82,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.81,
+          "quantity": 5.0
+        },
+        {
+          "price": 0.8,
+          "quantity": 15.0
+        },
+        {
+          "price": 0.75,
+          "quantity": 48.93
+        },
+        {
+          "price": 0.74,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.7,
+          "quantity": 5.0
+        },
+        {
+          "price": 0.55,
+          "quantity": 3.0
+        },
+        {
+          "price": 0.51,
+          "quantity": 94.51
+        },
+        {
+          "price": 0.5,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.46,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.45,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.41,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.36,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.35,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.31,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.3,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.26,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.21,
+          "quantity": 3.0
+        },
+        {
+          "price": 0.19,
+          "quantity": 99.0
+        },
+        {
+          "price": 0.18,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.16,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.14,
+          "quantity": 93.51
+        },
+        {
+          "price": 0.12,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.11,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.1,
+          "quantity": 32.0
+        },
+        {
+          "price": 0.08,
+          "quantity": 30.0
+        },
+        {
+          "price": 0.06,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.05,
+          "quantity": 21.0
+        },
+        {
+          "price": 0.04,
+          "quantity": 22.0
+        },
+        {
+          "price": 0.03,
+          "quantity": 121.0
+        },
+        {
+          "price": 0.02,
+          "quantity": 21.0
+        },
+        {
+          "price": 0.01,
+          "quantity": 826.54
+        }
+      ],
+      "open_interest": 27587.57,
+      "rules_primary": "If the maximum temperature recorded at New York City (CLINYC) for Oct 1, 2026, is between 79-80° fahrenheit according to The Weather Company, then the market resolves to Yes.",
+      "rules_secondary": "Not all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the maximum/minimum temperature as reported by the Weather Company.\n\nReading weather data\nPreliminary Weather Company data may be subject to rounding and conversion differences from the final reported value.\nUse caution when interpreting preliminary Weather Company readings.\n\nIf it is determined in the sole discretion of the Exchange that there is a material error in the initial non-preliminary publication, Expiration may be held until the publication of a non-materially-erroneous data revision or until the Expiration Date, whichever comes first. If no data is available at the end of this period, all markets will resolve to the last fair price determined by Kalshi. Please note, a status of \"Final\" on weather.com/kalshi is provided for convenience only, and does not guarantee data to be error-free and thus exempt from the above.",
+      "scenario_no": null,
+      "scenario_yes": null,
+      "selected": {
+        "no": {
+          "break_even": null,
+          "complete": false,
+          "cost": 0.0,
+          "fee": 0.0,
+          "filled": 0.0,
+          "levels": 0,
+          "notional": 0.0,
+          "requested": 100.0,
+          "vwap": null,
+          "worst_price": null
+        },
+        "yes": {
+          "break_even": 0.010693,
+          "complete": true,
+          "cost": 1.0693,
+          "fee": 0.0693,
+          "filled": 100.0,
+          "levels": 1,
+          "notional": 1.0,
+          "requested": 100.0,
+          "vwap": 0.01,
+          "worst_price": 0.01
+        }
+      },
+      "series_ticker": "KXHIGHNY",
+      "sizes": [
+        {
+          "no": {
+            "break_even": null,
+            "complete": false,
+            "cost": 0.0,
+            "fee": 0.0,
+            "filled": 0.0,
+            "levels": 0,
+            "notional": 0.0,
+            "requested": 1.0,
+            "vwap": null,
+            "worst_price": null
+          },
+          "quantity": 1.0,
+          "yes": {
+            "break_even": 0.0107,
+            "complete": true,
+            "cost": 0.0107,
+            "fee": 0.0007,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.01,
+            "requested": 1.0,
+            "vwap": 0.01,
+            "worst_price": 0.01
+          }
+        },
+        {
+          "no": {
+            "break_even": null,
+            "complete": false,
+            "cost": 0.0,
+            "fee": 0.0,
+            "filled": 0.0,
+            "levels": 0,
+            "notional": 0.0,
+            "requested": 10.0,
+            "vwap": null,
+            "worst_price": null
+          },
+          "quantity": 10.0,
+          "yes": {
+            "break_even": 0.0107,
+            "complete": true,
+            "cost": 0.107,
+            "fee": 0.007,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 0.1,
+            "requested": 10.0,
+            "vwap": 0.01,
+            "worst_price": 0.01
+          }
+        },
+        {
+          "no": {
+            "break_even": null,
+            "complete": false,
+            "cost": 0.0,
+            "fee": 0.0,
+            "filled": 0.0,
+            "levels": 0,
+            "notional": 0.0,
+            "requested": 100.0,
+            "vwap": null,
+            "worst_price": null
+          },
+          "quantity": 100.0,
+          "yes": {
+            "break_even": 0.010693,
+            "complete": true,
+            "cost": 1.0693,
+            "fee": 0.0693,
+            "filled": 100.0,
+            "levels": 1,
+            "notional": 1.0,
+            "requested": 100.0,
+            "vwap": 0.01,
+            "worst_price": 0.01
+          }
+        },
+        {
+          "no": {
+            "break_even": null,
+            "complete": false,
+            "cost": 0.0,
+            "fee": 0.0,
+            "filled": 0.0,
+            "levels": 0,
+            "notional": 0.0,
+            "requested": 1000.0,
+            "vwap": null,
+            "worst_price": null
+          },
+          "quantity": 1000.0,
+          "yes": {
+            "break_even": 0.010693,
+            "complete": true,
+            "cost": 10.693,
+            "fee": 0.693,
+            "filled": 1000.0,
+            "levels": 1,
+            "notional": 10.0,
+            "requested": 1000.0,
+            "vwap": 0.01,
+            "worst_price": 0.01
+          }
+        }
+      ],
+      "spread": null,
+      "stale": false,
+      "status": "active",
+      "subtitle": "79° to 80°",
+      "ticker": "KXHIGHNY-26OCT01-B79.5",
+      "title": "Will the maximum temperature be 79-80° on Oct 1, 2026?",
+      "valid": true,
+      "volume": 36215.01,
+      "volume_24h": 33147.11,
+      "warnings": [
+        "One-sided or empty book; midpoint may be unavailable"
+      ],
+      "yes_ask": 0.01,
+      "yes_asks": [
+        {
+          "price": 0.01,
+          "quantity": 17732.48
+        },
+        {
+          "price": 0.02,
+          "quantity": 561.0
+        },
+        {
+          "price": 0.03,
+          "quantity": 23.0
+        },
+        {
+          "price": 0.04,
+          "quantity": 4776.94
+        },
+        {
+          "price": 0.05,
+          "quantity": 15.0
+        },
+        {
+          "price": 0.06,
+          "quantity": 278.64
+        },
+        {
+          "price": 0.07,
+          "quantity": 3.0
+        },
+        {
+          "price": 0.08,
+          "quantity": 51.0
+        },
+        {
+          "price": 0.09,
+          "quantity": 3.0
+        },
+        {
+          "price": 0.1,
+          "quantity": 28.0
+        },
+        {
+          "price": 0.12,
+          "quantity": 48.0
+        },
+        {
+          "price": 0.15,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.18,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.19,
+          "quantity": 5.0
+        },
+        {
+          "price": 0.2,
+          "quantity": 15.0
+        },
+        {
+          "price": 0.25,
+          "quantity": 48.93
+        },
+        {
+          "price": 0.26,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.3,
+          "quantity": 5.0
+        },
+        {
+          "price": 0.45,
+          "quantity": 3.0
+        },
+        {
+          "price": 0.49,
+          "quantity": 94.51
+        },
+        {
+          "price": 0.5,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.54,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.55,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.59,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.64,
+          "quantity": 1.0
+        },
+        {
+          "price": 0.65,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.69,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.7,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.74,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.79,
+          "quantity": 3.0
+        },
+        {
+          "price": 0.81,
+          "quantity": 99.0
+        },
+        {
+          "price": 0.82,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.84,
+          "quantity": 2.0
+        },
+        {
+          "price": 0.86,
+          "quantity": 93.51
+        },
+        {
+          "price": 0.88,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.89,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.9,
+          "quantity": 32.0
+        },
+        {
+          "price": 0.92,
+          "quantity": 30.0
+        },
+        {
+          "price": 0.94,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.95,
+          "quantity": 21.0
+        },
+        {
+          "price": 0.96,
+          "quantity": 22.0
+        },
+        {
+          "price": 0.97,
+          "quantity": 121.0
+        },
+        {
+          "price": 0.98,
+          "quantity": 21.0
+        },
+        {
+          "price": 0.99,
+          "quantity": 826.54
+        }
+      ],
+      "yes_bid": null,
+      "yes_bids": []
+    }
+  ],
+  "max_skew_seconds": 10.0,
+  "quantity": 100.0,
+  "schema": "kalshilens.analysis.v1",
+  "snapshot_completed_at": "2026-10-02T04:09:38Z",
+  "snapshot_fingerprint_fnv1a64": "6226f57a0f3df42e",
+  "snapshot_started_at": "2026-10-02T04:09:07Z",
+  "source": "Kalshi public REST / external-api.kalshi.com",
+  "stale_after_seconds": 60.0,
+  "structural_checks": [
+    {
+      "assumption": "At most one of the included markets settles YES; remaining included markets settle NO at $1. Exhaustiveness is NOT assumed.",
+      "candidate": false,
+      "cost": null,
+      "issues": [
+        "Invalid, stale or unknown-fee leg: KXHIGHNY-26OCT01-B75.5",
+        "Insufficient depth: KXHIGHNY-26OCT01-B77.5",
+        "Insufficient depth: KXHIGHNY-26OCT01-B79.5",
+        "Theoretical binary-settlement bound only; review rules, exceptional settlement and non-atomic leg risk"
+      ],
+      "label": "Mutually exclusive NO basket: KXHIGHNY-26OCT01",
+      "legs": [
+        {
+          "side": "NO",
+          "ticker": "KXHIGHNY-26OCT01-B75.5"
+        },
+        {
+          "side": "NO",
+          "ticker": "KXHIGHNY-26OCT01-B77.5"
+        },
+        {
+          "side": "NO",
+          "ticker": "KXHIGHNY-26OCT01-B79.5"
+        }
+      ],
+      "net_floor": null,
+      "payout_floor": 200.0,
+      "quantity": 100.0
+    }
+  ],
+  "synthetic": false,
+  "version": "1.0.0"
+}

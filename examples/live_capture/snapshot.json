@@ -1,0 +1,893 @@
+{
+  "completed_at": "2026-10-02T04:09:38Z",
+  "coverage": {
+    "discovered": 12,
+    "event_filter": "",
+    "pages": 1,
+    "selected": 3,
+    "selection": "Highest 24-hour volume within the scanned pages; NOT an exchange-wide top-volume ranking",
+    "series_filter": "KXHIGHNY",
+    "ticker_filter": "",
+    "truncated": true
+  },
+  "records": [
+    {
+      "book_request_ms": 1819,
+      "errors": [
+        "Metadata: HTTPS error: Timeout was reached"
+      ],
+      "event": {},
+      "market": {
+        "can_close_early": true,
+        "cap_strike": 76,
+        "close_time": "2026-10-02T05:00:00Z",
+        "created_time": "2026-09-30T09:34:27.518824Z",
+        "early_close_condition": "The Last Trading Time will be 11:59 PM local time on October 01, 2026 regardless of any data releases or events occurring. Expiration will occur on the sooner of the first 7:00 or 8:00\nAM ET following the release of the data for October 01, 2026, or one week after October 01, 2026.",
+        "event_ticker": "KXHIGHNY-26OCT01",
+        "exchange_index": 0,
+        "expected_expiration_time": "2026-10-02T19:00:00Z",
+        "expiration_time": "2026-10-08T14:00:00Z",
+        "expiration_value": "",
+        "floor_strike": 75,
+        "last_price_dollars": "0.9800",
+        "latest_expiration_time": "2026-10-08T14:00:00Z",
+        "market_type": "binary",
+        "no_ask_dollars": "0.0200",
+        "no_bid_dollars": "0.0000",
+        "no_sub_title": "75° to 76°",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-10-02T14:00:00Z",
+        "open_interest_fp": "20809.09",
+        "open_time": "2026-09-30T14:00:00Z",
+        "previous_price_dollars": "0.4800",
+        "previous_yes_ask_dollars": "0.4800",
+        "previous_yes_bid_dollars": "0.4700",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If the maximum temperature recorded at New York City (CLINYC) for Oct 1, 2026, is between 75-76° fahrenheit according to The Weather Company, then the market resolves to Yes.",
+        "rules_secondary": "Not all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the maximum/minimum temperature as reported by the Weather Company.\n\nReading weather data\nPreliminary Weather Company data may be subject to rounding and conversion differences from the final reported value.\nUse caution when interpreting preliminary Weather Company readings.\n\nIf it is determined in the sole discretion of the Exchange that there is a material error in the initial non-preliminary publication, Expiration may be held until the publication of a non-materially-erroneous data revision or until the Expiration Date, whichever comes first. If no data is available at the end of this period, all markets will resolve to the last fair price determined by Kalshi. Please note, a status of \"Final\" on weather.com/kalshi is provided for convenience only, and does not guarantee data to be error-free and thus exempt from the above.",
+        "settlement_bounds_type": "default",
+        "settlement_timer_seconds": 300,
+        "status": "active",
+        "strike_type": "between",
+        "ticker": "KXHIGHNY-26OCT01-B75.5",
+        "title": "Will the maximum temperature be 75-76° on Oct 1, 2026?",
+        "updated_time": "2026-09-30T14:00:01.306598Z",
+        "volume_24h_fp": "46697.28",
+        "volume_fp": "51551.82",
+        "yes_ask_dollars": "1.0000",
+        "yes_ask_size_fp": "0.00",
+        "yes_bid_dollars": "0.9800",
+        "yes_bid_size_fp": "78.50",
+        "yes_sub_title": "75° to 76°"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [],
+          "yes_dollars": [
+            [
+              "0.0100",
+              "1654.28"
+            ],
+            [
+              "0.0200",
+              "82.00"
+            ],
+            [
+              "0.0300",
+              "179.00"
+            ],
+            [
+              "0.0400",
+              "1.00"
+            ],
+            [
+              "0.0500",
+              "16.00"
+            ],
+            [
+              "0.0600",
+              "10.00"
+            ],
+            [
+              "0.0700",
+              "38.00"
+            ],
+            [
+              "0.0800",
+              "7.00"
+            ],
+            [
+              "0.0900",
+              "2.00"
+            ],
+            [
+              "0.1000",
+              "101.00"
+            ],
+            [
+              "0.1100",
+              "1.00"
+            ],
+            [
+              "0.1200",
+              "2.00"
+            ],
+            [
+              "0.1300",
+              "1.00"
+            ],
+            [
+              "0.1400",
+              "1.00"
+            ],
+            [
+              "0.1500",
+              "1.00"
+            ],
+            [
+              "0.1600",
+              "22.86"
+            ],
+            [
+              "0.1700",
+              "1.00"
+            ],
+            [
+              "0.1800",
+              "1.00"
+            ],
+            [
+              "0.1900",
+              "2.00"
+            ],
+            [
+              "0.2000",
+              "3.00"
+            ],
+            [
+              "0.2100",
+              "1.00"
+            ],
+            [
+              "0.2500",
+              "8.00"
+            ],
+            [
+              "0.2600",
+              "2.00"
+            ],
+            [
+              "0.2700",
+              "10.00"
+            ],
+            [
+              "0.3100",
+              "1.00"
+            ],
+            [
+              "0.3300",
+              "6.00"
+            ],
+            [
+              "0.3600",
+              "1.00"
+            ],
+            [
+              "0.3700",
+              "5.00"
+            ],
+            [
+              "0.3800",
+              "10.00"
+            ],
+            [
+              "0.4000",
+              "10.00"
+            ],
+            [
+              "0.4100",
+              "1.00"
+            ],
+            [
+              "0.4500",
+              "780.00"
+            ],
+            [
+              "0.4600",
+              "100.00"
+            ],
+            [
+              "0.4800",
+              "9.00"
+            ],
+            [
+              "0.5600",
+              "2.00"
+            ],
+            [
+              "0.8400",
+              "5.00"
+            ],
+            [
+              "0.8800",
+              "0.23"
+            ],
+            [
+              "0.9600",
+              "367.37"
+            ],
+            [
+              "0.9800",
+              "78.50"
+            ]
+          ]
+        }
+      },
+      "received_ms": 1790914159451,
+      "series": {}
+    },
+    {
+      "book_request_ms": 4264,
+      "errors": [],
+      "event": {
+        "category": "Climate and Weather",
+        "collateral_return_type": "MECNET",
+        "event_ticker": "KXHIGHNY-26OCT01",
+        "exchange_index": 0,
+        "last_updated_ts": "0001-01-01T00:00:00Z",
+        "mutually_exclusive": true,
+        "product_metadata": {
+          "competition": "High Temperature"
+        },
+        "series_ticker": "KXHIGHNY",
+        "settlement_sources": [
+          {
+            "name": "The Weather Company",
+            "url": "https://weather.com/kalshi"
+          }
+        ],
+        "strike_date": "2026-10-02T05:00:00Z",
+        "strike_period": "",
+        "sub_title": "On Oct 1, 2026",
+        "title": "Highest temperature in New York City on Oct 1, 2026?"
+      },
+      "market": {
+        "can_close_early": true,
+        "cap_strike": 78,
+        "close_time": "2026-10-02T05:00:00Z",
+        "created_time": "2026-09-30T09:34:27.518824Z",
+        "early_close_condition": "The Last Trading Time will be 11:59 PM local time on October 01, 2026 regardless of any data releases or events occurring. Expiration will occur on the sooner of the first 7:00 or 8:00\nAM ET following the release of the data for October 01, 2026, or one week after October 01, 2026.",
+        "event_ticker": "KXHIGHNY-26OCT01",
+        "exchange_index": 0,
+        "expected_expiration_time": "2026-10-02T19:00:00Z",
+        "expiration_time": "2026-10-08T14:00:00Z",
+        "expiration_value": "",
+        "floor_strike": 77,
+        "last_price_dollars": "0.0400",
+        "latest_expiration_time": "2026-10-08T14:00:00Z",
+        "market_type": "binary",
+        "no_ask_dollars": "0.9900",
+        "no_bid_dollars": "0.9700",
+        "no_sub_title": "77° to 78°",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-10-02T14:00:00Z",
+        "open_interest_fp": "20101.53",
+        "open_time": "2026-09-30T14:00:00Z",
+        "previous_price_dollars": "0.3100",
+        "previous_yes_ask_dollars": "0.3100",
+        "previous_yes_bid_dollars": "0.2900",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If the maximum temperature recorded at New York City (CLINYC) for Oct 1, 2026, is between 77-78° fahrenheit according to The Weather Company, then the market resolves to Yes.",
+        "rules_secondary": "Not all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the maximum/minimum temperature as reported by the Weather Company.\n\nReading weather data\nPreliminary Weather Company data may be subject to rounding and conversion differences from the final reported value.\nUse caution when interpreting preliminary Weather Company readings.\n\nIf it is determined in the sole discretion of the Exchange that there is a material error in the initial non-preliminary publication, Expiration may be held until the publication of a non-materially-erroneous data revision or until the Expiration Date, whichever comes first. If no data is available at the end of this period, all markets will resolve to the last fair price determined by Kalshi. Please note, a status of \"Final\" on weather.com/kalshi is provided for convenience only, and does not guarantee data to be error-free and thus exempt from the above.",
+        "settlement_bounds_type": "default",
+        "settlement_timer_seconds": 300,
+        "status": "active",
+        "strike_type": "between",
+        "ticker": "KXHIGHNY-26OCT01-B77.5",
+        "title": "Will the maximum temperature be 77-78° on Oct 1, 2026?",
+        "updated_time": "2026-09-30T14:00:01.306598Z",
+        "volume_24h_fp": "36902.52",
+        "volume_fp": "40662.06",
+        "yes_ask_dollars": "0.0300",
+        "yes_ask_size_fp": "96.38",
+        "yes_bid_dollars": "0.0100",
+        "yes_bid_size_fp": "78.00",
+        "yes_sub_title": "77° to 78°"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [
+            [
+              "0.0100",
+              "744.07"
+            ],
+            [
+              "0.0200",
+              "43.61"
+            ],
+            [
+              "0.0300",
+              "139.30"
+            ],
+            [
+              "0.0400",
+              "48.86"
+            ],
+            [
+              "0.0500",
+              "241.22"
+            ],
+            [
+              "0.0600",
+              "100.00"
+            ],
+            [
+              "0.0800",
+              "210.00"
+            ],
+            [
+              "0.1000",
+              "6.73"
+            ],
+            [
+              "0.1100",
+              "384.53"
+            ],
+            [
+              "0.1300",
+              "5.79"
+            ],
+            [
+              "0.1400",
+              "150.00"
+            ],
+            [
+              "0.1600",
+              "8.02"
+            ],
+            [
+              "0.1700",
+              "135.00"
+            ],
+            [
+              "0.1800",
+              "143.94"
+            ],
+            [
+              "0.1900",
+              "32.00"
+            ],
+            [
+              "0.2000",
+              "198.60"
+            ],
+            [
+              "0.2100",
+              "3.00"
+            ],
+            [
+              "0.2300",
+              "105.00"
+            ],
+            [
+              "0.2500",
+              "14.63"
+            ],
+            [
+              "0.2600",
+              "191.00"
+            ],
+            [
+              "0.2800",
+              "42.32"
+            ],
+            [
+              "0.2900",
+              "75.00"
+            ],
+            [
+              "0.3000",
+              "104.31"
+            ],
+            [
+              "0.3100",
+              "17.00"
+            ],
+            [
+              "0.3200",
+              "60.00"
+            ],
+            [
+              "0.3400",
+              "50.00"
+            ],
+            [
+              "0.3500",
+              "196.79"
+            ],
+            [
+              "0.3600",
+              "1.00"
+            ],
+            [
+              "0.3800",
+              "30.00"
+            ],
+            [
+              "0.3900",
+              "23.48"
+            ],
+            [
+              "0.4100",
+              "16.00"
+            ],
+            [
+              "0.4200",
+              "32.73"
+            ],
+            [
+              "0.4500",
+              "11.00"
+            ],
+            [
+              "0.4600",
+              "1.00"
+            ],
+            [
+              "0.4900",
+              "50.00"
+            ],
+            [
+              "0.5000",
+              "5.00"
+            ],
+            [
+              "0.5100",
+              "1.00"
+            ],
+            [
+              "0.5400",
+              "472.51"
+            ],
+            [
+              "0.5700",
+              "691.02"
+            ],
+            [
+              "0.5800",
+              "99.00"
+            ],
+            [
+              "0.6000",
+              "2.00"
+            ],
+            [
+              "0.6400",
+              "194.31"
+            ],
+            [
+              "0.7000",
+              "5.00"
+            ],
+            [
+              "0.7200",
+              "72.86"
+            ],
+            [
+              "0.7300",
+              "25.00"
+            ],
+            [
+              "0.7500",
+              "23.00"
+            ],
+            [
+              "0.8000",
+              "15.00"
+            ],
+            [
+              "0.8100",
+              "5.00"
+            ],
+            [
+              "0.8300",
+              "118.31"
+            ],
+            [
+              "0.8500",
+              "53.00"
+            ],
+            [
+              "0.8800",
+              "249.93"
+            ],
+            [
+              "0.9000",
+              "349.93"
+            ],
+            [
+              "0.9100",
+              "42.52"
+            ],
+            [
+              "0.9300",
+              "22.96"
+            ],
+            [
+              "0.9400",
+              "65.29"
+            ],
+            [
+              "0.9600",
+              "485.08"
+            ],
+            [
+              "0.9700",
+              "111.57"
+            ]
+          ],
+          "yes_dollars": [
+            [
+              "0.0100",
+              "78.00"
+            ]
+          ]
+        }
+      },
+      "received_ms": 1790914173618,
+      "series": {
+        "additional_prohibitions": [
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Climate and Weather"
+        ],
+        "category": "Climate and Weather",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/GLOBALTEMPERATURE.pdf",
+        "exchange_index": 0,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "daily",
+        "last_updated_ts": "2026-10-01T20:50:16.961991Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "GLOBALTEMPERATURE-bulk-2026-09-02",
+            "markdown": "**Important information:** If it is determined in the sole discretion of the Exchange that there is a material error in the initial non-preliminary publication, Expiration may be held until the publication of a non-materially-erroneous data revision or until the Expiration Date, whichever comes first. If no data is available at the end of this period, all markets will resolve to the last fair price determined by Kalshi. Please note, a status of \"Final\" on weather.com/kalshi is provided for convenience only, and does not guarantee data to be error-free and thus exempt from the above.",
+            "message": "",
+            "title": ""
+          }
+        },
+        "settlement_sources": [
+          {
+            "name": "The Weather Company",
+            "url": "https://weather.com/kalshi"
+          }
+        ],
+        "tags": [
+          "Daily temperature"
+        ],
+        "ticker": "KXHIGHNY",
+        "title": "Highest temperature in NYC"
+      }
+    },
+    {
+      "book_request_ms": 4656,
+      "errors": [],
+      "event": {
+        "category": "Climate and Weather",
+        "collateral_return_type": "MECNET",
+        "event_ticker": "KXHIGHNY-26OCT01",
+        "exchange_index": 0,
+        "last_updated_ts": "0001-01-01T00:00:00Z",
+        "mutually_exclusive": true,
+        "product_metadata": {
+          "competition": "High Temperature"
+        },
+        "series_ticker": "KXHIGHNY",
+        "settlement_sources": [
+          {
+            "name": "The Weather Company",
+            "url": "https://weather.com/kalshi"
+          }
+        ],
+        "strike_date": "2026-10-02T05:00:00Z",
+        "strike_period": "",
+        "sub_title": "On Oct 1, 2026",
+        "title": "Highest temperature in New York City on Oct 1, 2026?"
+      },
+      "market": {
+        "can_close_early": true,
+        "cap_strike": 80,
+        "close_time": "2026-10-02T05:00:00Z",
+        "created_time": "2026-09-30T09:34:27.518824Z",
+        "early_close_condition": "The Last Trading Time will be 11:59 PM local time on October 01, 2026 regardless of any data releases or events occurring. Expiration will occur on the sooner of the first 7:00 or 8:00\nAM ET following the release of the data for October 01, 2026, or one week after October 01, 2026.",
+        "event_ticker": "KXHIGHNY-26OCT01",
+        "exchange_index": 0,
+        "expected_expiration_time": "2026-10-02T19:00:00Z",
+        "expiration_time": "2026-10-08T14:00:00Z",
+        "expiration_value": "",
+        "floor_strike": 79,
+        "last_price_dollars": "0.0100",
+        "latest_expiration_time": "2026-10-08T14:00:00Z",
+        "market_type": "binary",
+        "no_ask_dollars": "1.0000",
+        "no_bid_dollars": "0.9900",
+        "no_sub_title": "79° to 80°",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-10-02T14:00:00Z",
+        "open_interest_fp": "27587.57",
+        "open_time": "2026-09-30T14:00:00Z",
+        "previous_price_dollars": "0.0500",
+        "previous_yes_ask_dollars": "0.0600",
+        "previous_yes_bid_dollars": "0.0500",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If the maximum temperature recorded at New York City (CLINYC) for Oct 1, 2026, is between 79-80° fahrenheit according to The Weather Company, then the market resolves to Yes.",
+        "rules_secondary": "Not all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the maximum/minimum temperature as reported by the Weather Company.\n\nReading weather data\nPreliminary Weather Company data may be subject to rounding and conversion differences from the final reported value.\nUse caution when interpreting preliminary Weather Company readings.\n\nIf it is determined in the sole discretion of the Exchange that there is a material error in the initial non-preliminary publication, Expiration may be held until the publication of a non-materially-erroneous data revision or until the Expiration Date, whichever comes first. If no data is available at the end of this period, all markets will resolve to the last fair price determined by Kalshi. Please note, a status of \"Final\" on weather.com/kalshi is provided for convenience only, and does not guarantee data to be error-free and thus exempt from the above.",
+        "settlement_bounds_type": "default",
+        "settlement_timer_seconds": 300,
+        "status": "active",
+        "strike_type": "between",
+        "ticker": "KXHIGHNY-26OCT01-B79.5",
+        "title": "Will the maximum temperature be 79-80° on Oct 1, 2026?",
+        "updated_time": "2026-09-30T14:00:01.306598Z",
+        "volume_24h_fp": "33147.11",
+        "volume_fp": "36215.01",
+        "yes_ask_dollars": "0.0100",
+        "yes_ask_size_fp": "17738.48",
+        "yes_bid_dollars": "0.0000",
+        "yes_bid_size_fp": "0.00",
+        "yes_sub_title": "79° to 80°"
+      },
+      "orderbook": {
+        "orderbook_fp": {
+          "no_dollars": [
+            [
+              "0.0100",
+              "826.54"
+            ],
+            [
+              "0.0200",
+              "21.00"
+            ],
+            [
+              "0.0300",
+              "121.00"
+            ],
+            [
+              "0.0400",
+              "22.00"
+            ],
+            [
+              "0.0500",
+              "21.00"
+            ],
+            [
+              "0.0600",
+              "100.00"
+            ],
+            [
+              "0.0800",
+              "30.00"
+            ],
+            [
+              "0.1000",
+              "32.00"
+            ],
+            [
+              "0.1100",
+              "101.00"
+            ],
+            [
+              "0.1200",
+              "40.00"
+            ],
+            [
+              "0.1400",
+              "93.51"
+            ],
+            [
+              "0.1600",
+              "2.00"
+            ],
+            [
+              "0.1800",
+              "100.00"
+            ],
+            [
+              "0.1900",
+              "99.00"
+            ],
+            [
+              "0.2100",
+              "3.00"
+            ],
+            [
+              "0.2600",
+              "101.00"
+            ],
+            [
+              "0.3000",
+              "100.00"
+            ],
+            [
+              "0.3100",
+              "2.00"
+            ],
+            [
+              "0.3500",
+              "100.00"
+            ],
+            [
+              "0.3600",
+              "1.00"
+            ],
+            [
+              "0.4100",
+              "1.00"
+            ],
+            [
+              "0.4500",
+              "1.00"
+            ],
+            [
+              "0.4600",
+              "1.00"
+            ],
+            [
+              "0.5000",
+              "70.00"
+            ],
+            [
+              "0.5100",
+              "94.51"
+            ],
+            [
+              "0.5500",
+              "3.00"
+            ],
+            [
+              "0.7000",
+              "5.00"
+            ],
+            [
+              "0.7400",
+              "25.00"
+            ],
+            [
+              "0.7500",
+              "48.93"
+            ],
+            [
+              "0.8000",
+              "15.00"
+            ],
+            [
+              "0.8100",
+              "5.00"
+            ],
+            [
+              "0.8200",
+              "2.00"
+            ],
+            [
+              "0.8500",
+              "116.00"
+            ],
+            [
+              "0.8800",
+              "48.00"
+            ],
+            [
+              "0.9000",
+              "28.00"
+            ],
+            [
+              "0.9100",
+              "3.00"
+            ],
+            [
+              "0.9200",
+              "51.00"
+            ],
+            [
+              "0.9300",
+              "3.00"
+            ],
+            [
+              "0.9400",
+              "278.64"
+            ],
+            [
+              "0.9500",
+              "15.00"
+            ],
+            [
+              "0.9600",
+              "4776.94"
+            ],
+            [
+              "0.9700",
+              "23.00"
+            ],
+            [
+              "0.9800",
+              "561.00"
+            ],
+            [
+              "0.9900",
+              "17732.48"
+            ]
+          ],
+          "yes_dollars": []
+        }
+      },
+      "received_ms": 1790914178274,
+      "series": {
+        "additional_prohibitions": [
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Climate and Weather"
+        ],
+        "category": "Climate and Weather",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/GLOBALTEMPERATURE.pdf",
+        "exchange_index": 0,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "daily",
+        "last_updated_ts": "2026-10-01T20:50:16.961991Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "GLOBALTEMPERATURE-bulk-2026-09-02",
+            "markdown": "**Important information:** If it is determined in the sole discretion of the Exchange that there is a material error in the initial non-preliminary publication, Expiration may be held until the publication of a non-materially-erroneous data revision or until the Expiration Date, whichever comes first. If no data is available at the end of this period, all markets will resolve to the last fair price determined by Kalshi. Please note, a status of \"Final\" on weather.com/kalshi is provided for convenience only, and does not guarantee data to be error-free and thus exempt from the above.",
+            "message": "",
+            "title": ""
+          }
+        },
+        "settlement_sources": [
+          {
+            "name": "The Weather Company",
+            "url": "https://weather.com/kalshi"
+          }
+        ],
+        "tags": [
+          "Daily temperature"
+        ],
+        "ticker": "KXHIGHNY",
+        "title": "Highest temperature in NYC"
+      }
+    }
+  ],
+  "schema": "kalshilens.snapshot.v1",
+  "source": "Kalshi public REST / external-api.kalshi.com",
+  "started_at": "2026-10-02T04:09:07Z",
+  "synthetic": false
+}

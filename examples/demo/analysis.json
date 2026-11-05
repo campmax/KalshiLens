@@ -1,0 +1,3631 @@
+{
+  "balance_precision": 0.0001,
+  "coverage": {
+    "discovered": 12,
+    "selected": 12,
+    "selection": "Invented fixtures including deliberate data-quality failures",
+    "truncated": false
+  },
+  "generated_at": "2026-10-02T04:14:28Z",
+  "history": [
+    {
+      "mid": 0.41,
+      "ticker": "DEMO-1",
+      "time": "2026-10-02T04:14:28Z"
+    },
+    {
+      "mid": 0.41,
+      "ticker": "DEMO-2",
+      "time": "2026-10-02T04:14:28Z"
+    },
+    {
+      "mid": 0.41,
+      "ticker": "DEMO-3",
+      "time": "2026-10-02T04:14:28Z"
+    },
+    {
+      "mid": 0.41,
+      "ticker": "DEMO-4",
+      "time": "2026-10-02T04:14:27Z"
+    },
+    {
+      "mid": 0.61,
+      "ticker": "DEMO-5",
+      "time": "2026-10-02T04:14:27Z"
+    },
+    {
+      "mid": 0.41,
+      "ticker": "DEMO-6",
+      "time": "2026-10-02T04:14:27Z"
+    },
+    {
+      "mid": 0.46,
+      "ticker": "DEMO-7",
+      "time": "2026-10-02T04:14:27Z"
+    },
+    {
+      "mid": 0.56,
+      "ticker": "DEMO-9",
+      "time": "2026-10-02T04:14:27Z"
+    },
+    {
+      "mid": 0.41,
+      "ticker": "DEMO-11",
+      "time": "2026-10-02T04:14:27Z"
+    },
+    {
+      "mid": 0.46,
+      "ticker": "DEMO-12",
+      "time": "2026-10-02T04:12:28Z"
+    }
+  ],
+  "limitations": [
+    "Prices are not objective probabilities.",
+    "Displayed depth can cancel before any hypothetical execution.",
+    "Each price level is modeled as one fill; actual fill fragmentation and fee rebates can differ.",
+    "Series/event fee metadata is a snapshot; account-specific discounts and exceptional schedules require verification.",
+    "Cross-market observations are sequential, not simultaneous. No orders are sent."
+  ],
+  "markets": [
+    {
+      "age_seconds": 0.001,
+      "belief": null,
+      "captured_ms": 1790914468115,
+      "category": "Science",
+      "close_time": "2030-01-01T00:00:00Z",
+      "event_ticker": "DEMO-E1",
+      "executable_snapshot": true,
+      "fee": {
+        "known": true,
+        "multiplier": 1.0,
+        "source": "series metadata",
+        "type": "quadratic"
+      },
+      "imbalance": -0.012345679012345678,
+      "last_price": 0.41,
+      "mid": 0.41,
+      "no_ask": 0.6,
+      "no_asks": [
+        {
+          "price": 0.6,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.61,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.62,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.63,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.64,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.65,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.66,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.67,
+          "quantity": 130.0
+        }
+      ],
+      "no_bid": 0.58,
+      "no_bids": [
+        {
+          "price": 0.58,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.57,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.56,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.55,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.54,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.53,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.52,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.51,
+          "quantity": 131.0
+        }
+      ],
+      "open_interest": 3500.0,
+      "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+      "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+      "scenario_no": null,
+      "scenario_yes": null,
+      "selected": {
+        "no": {
+          "break_even": 0.627634,
+          "complete": true,
+          "cost": 62.7634,
+          "fee": 1.6634,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 61.1,
+          "requested": 100.0,
+          "vwap": 0.611,
+          "worst_price": 0.62
+        },
+        "yes": {
+          "break_even": 0.44786000000000004,
+          "complete": true,
+          "cost": 44.786,
+          "fee": 1.716,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 43.07,
+          "requested": 100.0,
+          "vwap": 0.4307,
+          "worst_price": 0.44
+        }
+      },
+      "series_ticker": "DEMO-SERIES",
+      "sizes": [
+        {
+          "no": {
+            "break_even": 0.6168,
+            "complete": true,
+            "cost": 0.6168,
+            "fee": 0.0168,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.6,
+            "requested": 1.0,
+            "vwap": 0.6,
+            "worst_price": 0.6
+          },
+          "quantity": 1.0,
+          "yes": {
+            "break_even": 0.4371,
+            "complete": true,
+            "cost": 0.4371,
+            "fee": 0.0171,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.42,
+            "requested": 1.0,
+            "vwap": 0.42,
+            "worst_price": 0.42
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6168,
+            "complete": true,
+            "cost": 6.168,
+            "fee": 0.168,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 6.0,
+            "requested": 10.0,
+            "vwap": 0.6,
+            "worst_price": 0.6
+          },
+          "quantity": 10.0,
+          "yes": {
+            "break_even": 0.43705999999999995,
+            "complete": true,
+            "cost": 4.3706,
+            "fee": 0.1706,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 4.2,
+            "requested": 10.0,
+            "vwap": 0.42000000000000004,
+            "worst_price": 0.42
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.627634,
+            "complete": true,
+            "cost": 62.7634,
+            "fee": 1.6634,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 61.1,
+            "requested": 100.0,
+            "vwap": 0.611,
+            "worst_price": 0.62
+          },
+          "quantity": 100.0,
+          "yes": {
+            "break_even": 0.44786000000000004,
+            "complete": true,
+            "cost": 44.786,
+            "fee": 1.716,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 43.07,
+            "requested": 100.0,
+            "vwap": 0.4307,
+            "worst_price": 0.44
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6611567741935483,
+            "complete": false,
+            "cost": 409.9172,
+            "fee": 9.9172,
+            "filled": 620.0,
+            "levels": 8,
+            "notional": 400.0,
+            "requested": 1000.0,
+            "vwap": 0.6451612903225806,
+            "worst_price": 0.67
+          },
+          "quantity": 1000.0,
+          "yes": {
+            "break_even": 0.48241656050955417,
+            "complete": false,
+            "cost": 302.9576,
+            "fee": 10.9176,
+            "filled": 628.0,
+            "levels": 8,
+            "notional": 292.04,
+            "requested": 1000.0,
+            "vwap": 0.465031847133758,
+            "worst_price": 0.49
+          }
+        }
+      ],
+      "spread": 0.02,
+      "stale": false,
+      "status": "active",
+      "subtitle": "Illustrative binary outcome",
+      "ticker": "DEMO-1",
+      "title": "Aurora mission launches this month?",
+      "valid": true,
+      "volume": 2500.0,
+      "volume_24h": 700.0,
+      "warnings": [],
+      "yes_ask": 0.42,
+      "yes_asks": [
+        {
+          "price": 0.42,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.43,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.44,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.45,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.46,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.47,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.48,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.49,
+          "quantity": 131.0
+        }
+      ],
+      "yes_bid": 0.4,
+      "yes_bids": [
+        {
+          "price": 0.4,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.39,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.38,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.37,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.36,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.35,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.34,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.33,
+          "quantity": 130.0
+        }
+      ]
+    },
+    {
+      "age_seconds": 0.051,
+      "belief": null,
+      "captured_ms": 1790914468065,
+      "category": "Sports",
+      "close_time": "2030-01-01T00:00:00Z",
+      "event_ticker": "DEMO-FINAL",
+      "executable_snapshot": true,
+      "fee": {
+        "known": true,
+        "multiplier": 1.0,
+        "source": "series metadata",
+        "type": "quadratic"
+      },
+      "imbalance": -0.012345679012345678,
+      "last_price": 0.41,
+      "mid": 0.41,
+      "no_ask": 0.6,
+      "no_asks": [
+        {
+          "price": 0.6,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.61,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.62,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.63,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.64,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.65,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.66,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.67,
+          "quantity": 130.0
+        }
+      ],
+      "no_bid": 0.58,
+      "no_bids": [
+        {
+          "price": 0.58,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.57,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.56,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.55,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.54,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.53,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.52,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.51,
+          "quantity": 131.0
+        }
+      ],
+      "open_interest": 3500.0,
+      "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+      "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+      "scenario_no": null,
+      "scenario_yes": null,
+      "selected": {
+        "no": {
+          "break_even": 0.627634,
+          "complete": true,
+          "cost": 62.7634,
+          "fee": 1.6634,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 61.1,
+          "requested": 100.0,
+          "vwap": 0.611,
+          "worst_price": 0.62
+        },
+        "yes": {
+          "break_even": 0.44786000000000004,
+          "complete": true,
+          "cost": 44.786,
+          "fee": 1.716,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 43.07,
+          "requested": 100.0,
+          "vwap": 0.4307,
+          "worst_price": 0.44
+        }
+      },
+      "series_ticker": "DEMO-SERIES",
+      "sizes": [
+        {
+          "no": {
+            "break_even": 0.6168,
+            "complete": true,
+            "cost": 0.6168,
+            "fee": 0.0168,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.6,
+            "requested": 1.0,
+            "vwap": 0.6,
+            "worst_price": 0.6
+          },
+          "quantity": 1.0,
+          "yes": {
+            "break_even": 0.4371,
+            "complete": true,
+            "cost": 0.4371,
+            "fee": 0.0171,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.42,
+            "requested": 1.0,
+            "vwap": 0.42,
+            "worst_price": 0.42
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6168,
+            "complete": true,
+            "cost": 6.168,
+            "fee": 0.168,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 6.0,
+            "requested": 10.0,
+            "vwap": 0.6,
+            "worst_price": 0.6
+          },
+          "quantity": 10.0,
+          "yes": {
+            "break_even": 0.43705999999999995,
+            "complete": true,
+            "cost": 4.3706,
+            "fee": 0.1706,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 4.2,
+            "requested": 10.0,
+            "vwap": 0.42000000000000004,
+            "worst_price": 0.42
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.627634,
+            "complete": true,
+            "cost": 62.7634,
+            "fee": 1.6634,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 61.1,
+            "requested": 100.0,
+            "vwap": 0.611,
+            "worst_price": 0.62
+          },
+          "quantity": 100.0,
+          "yes": {
+            "break_even": 0.44786000000000004,
+            "complete": true,
+            "cost": 44.786,
+            "fee": 1.716,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 43.07,
+            "requested": 100.0,
+            "vwap": 0.4307,
+            "worst_price": 0.44
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6611567741935483,
+            "complete": false,
+            "cost": 409.9172,
+            "fee": 9.9172,
+            "filled": 620.0,
+            "levels": 8,
+            "notional": 400.0,
+            "requested": 1000.0,
+            "vwap": 0.6451612903225806,
+            "worst_price": 0.67
+          },
+          "quantity": 1000.0,
+          "yes": {
+            "break_even": 0.48241656050955417,
+            "complete": false,
+            "cost": 302.9576,
+            "fee": 10.9176,
+            "filled": 628.0,
+            "levels": 8,
+            "notional": 292.04,
+            "requested": 1000.0,
+            "vwap": 0.465031847133758,
+            "worst_price": 0.49
+          }
+        }
+      ],
+      "spread": 0.02,
+      "stale": false,
+      "status": "active",
+      "subtitle": "Illustrative binary outcome",
+      "ticker": "DEMO-2",
+      "title": "Harbor team wins the final?",
+      "valid": true,
+      "volume": 3212.0,
+      "volume_24h": 782.0,
+      "warnings": [],
+      "yes_ask": 0.42,
+      "yes_asks": [
+        {
+          "price": 0.42,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.43,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.44,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.45,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.46,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.47,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.48,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.49,
+          "quantity": 131.0
+        }
+      ],
+      "yes_bid": 0.4,
+      "yes_bids": [
+        {
+          "price": 0.4,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.39,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.38,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.37,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.36,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.35,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.34,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.33,
+          "quantity": 130.0
+        }
+      ]
+    },
+    {
+      "age_seconds": 0.101,
+      "belief": null,
+      "captured_ms": 1790914468015,
+      "category": "Science",
+      "close_time": "2030-01-01T00:00:00Z",
+      "event_ticker": "DEMO-FINAL",
+      "executable_snapshot": true,
+      "fee": {
+        "known": true,
+        "multiplier": 1.0,
+        "source": "series metadata",
+        "type": "quadratic"
+      },
+      "imbalance": -0.012345679012345678,
+      "last_price": 0.41,
+      "mid": 0.41,
+      "no_ask": 0.6,
+      "no_asks": [
+        {
+          "price": 0.6,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.61,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.62,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.63,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.64,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.65,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.66,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.67,
+          "quantity": 130.0
+        }
+      ],
+      "no_bid": 0.58,
+      "no_bids": [
+        {
+          "price": 0.58,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.57,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.56,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.55,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.54,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.53,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.52,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.51,
+          "quantity": 131.0
+        }
+      ],
+      "open_interest": 3500.0,
+      "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+      "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+      "scenario_no": null,
+      "scenario_yes": null,
+      "selected": {
+        "no": {
+          "break_even": 0.627634,
+          "complete": true,
+          "cost": 62.7634,
+          "fee": 1.6634,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 61.1,
+          "requested": 100.0,
+          "vwap": 0.611,
+          "worst_price": 0.62
+        },
+        "yes": {
+          "break_even": 0.44786000000000004,
+          "complete": true,
+          "cost": 44.786,
+          "fee": 1.716,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 43.07,
+          "requested": 100.0,
+          "vwap": 0.4307,
+          "worst_price": 0.44
+        }
+      },
+      "series_ticker": "DEMO-SERIES",
+      "sizes": [
+        {
+          "no": {
+            "break_even": 0.6168,
+            "complete": true,
+            "cost": 0.6168,
+            "fee": 0.0168,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.6,
+            "requested": 1.0,
+            "vwap": 0.6,
+            "worst_price": 0.6
+          },
+          "quantity": 1.0,
+          "yes": {
+            "break_even": 0.4371,
+            "complete": true,
+            "cost": 0.4371,
+            "fee": 0.0171,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.42,
+            "requested": 1.0,
+            "vwap": 0.42,
+            "worst_price": 0.42
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6168,
+            "complete": true,
+            "cost": 6.168,
+            "fee": 0.168,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 6.0,
+            "requested": 10.0,
+            "vwap": 0.6,
+            "worst_price": 0.6
+          },
+          "quantity": 10.0,
+          "yes": {
+            "break_even": 0.43705999999999995,
+            "complete": true,
+            "cost": 4.3706,
+            "fee": 0.1706,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 4.2,
+            "requested": 10.0,
+            "vwap": 0.42000000000000004,
+            "worst_price": 0.42
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.627634,
+            "complete": true,
+            "cost": 62.7634,
+            "fee": 1.6634,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 61.1,
+            "requested": 100.0,
+            "vwap": 0.611,
+            "worst_price": 0.62
+          },
+          "quantity": 100.0,
+          "yes": {
+            "break_even": 0.44786000000000004,
+            "complete": true,
+            "cost": 44.786,
+            "fee": 1.716,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 43.07,
+            "requested": 100.0,
+            "vwap": 0.4307,
+            "worst_price": 0.44
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6611567741935483,
+            "complete": false,
+            "cost": 409.9172,
+            "fee": 9.9172,
+            "filled": 620.0,
+            "levels": 8,
+            "notional": 400.0,
+            "requested": 1000.0,
+            "vwap": 0.6451612903225806,
+            "worst_price": 0.67
+          },
+          "quantity": 1000.0,
+          "yes": {
+            "break_even": 0.48241656050955417,
+            "complete": false,
+            "cost": 302.9576,
+            "fee": 10.9176,
+            "filled": 628.0,
+            "levels": 8,
+            "notional": 292.04,
+            "requested": 1000.0,
+            "vwap": 0.465031847133758,
+            "worst_price": 0.49
+          }
+        }
+      ],
+      "spread": 0.02,
+      "stale": false,
+      "status": "active",
+      "subtitle": "Illustrative binary outcome",
+      "ticker": "DEMO-3",
+      "title": "Valley team wins the final?",
+      "valid": true,
+      "volume": 3924.0,
+      "volume_24h": 864.0,
+      "warnings": [],
+      "yes_ask": 0.42,
+      "yes_asks": [
+        {
+          "price": 0.42,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.43,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.44,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.45,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.46,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.47,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.48,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.49,
+          "quantity": 131.0
+        }
+      ],
+      "yes_bid": 0.4,
+      "yes_bids": [
+        {
+          "price": 0.4,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.39,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.38,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.37,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.36,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.35,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.34,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.33,
+          "quantity": 130.0
+        }
+      ]
+    },
+    {
+      "age_seconds": 0.151,
+      "belief": null,
+      "captured_ms": 1790914467965,
+      "category": "Sports",
+      "close_time": "2030-01-01T00:00:00Z",
+      "event_ticker": "DEMO-FINAL",
+      "executable_snapshot": true,
+      "fee": {
+        "known": true,
+        "multiplier": 1.0,
+        "source": "series metadata",
+        "type": "quadratic"
+      },
+      "imbalance": -0.012345679012345678,
+      "last_price": 0.41,
+      "mid": 0.41,
+      "no_ask": 0.6,
+      "no_asks": [
+        {
+          "price": 0.6,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.61,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.62,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.63,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.64,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.65,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.66,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.67,
+          "quantity": 130.0
+        }
+      ],
+      "no_bid": 0.58,
+      "no_bids": [
+        {
+          "price": 0.58,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.57,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.56,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.55,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.54,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.53,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.52,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.51,
+          "quantity": 131.0
+        }
+      ],
+      "open_interest": 3500.0,
+      "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+      "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+      "scenario_no": null,
+      "scenario_yes": null,
+      "selected": {
+        "no": {
+          "break_even": 0.627634,
+          "complete": true,
+          "cost": 62.7634,
+          "fee": 1.6634,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 61.1,
+          "requested": 100.0,
+          "vwap": 0.611,
+          "worst_price": 0.62
+        },
+        "yes": {
+          "break_even": 0.44786000000000004,
+          "complete": true,
+          "cost": 44.786,
+          "fee": 1.716,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 43.07,
+          "requested": 100.0,
+          "vwap": 0.4307,
+          "worst_price": 0.44
+        }
+      },
+      "series_ticker": "DEMO-SERIES",
+      "sizes": [
+        {
+          "no": {
+            "break_even": 0.6168,
+            "complete": true,
+            "cost": 0.6168,
+            "fee": 0.0168,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.6,
+            "requested": 1.0,
+            "vwap": 0.6,
+            "worst_price": 0.6
+          },
+          "quantity": 1.0,
+          "yes": {
+            "break_even": 0.4371,
+            "complete": true,
+            "cost": 0.4371,
+            "fee": 0.0171,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.42,
+            "requested": 1.0,
+            "vwap": 0.42,
+            "worst_price": 0.42
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6168,
+            "complete": true,
+            "cost": 6.168,
+            "fee": 0.168,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 6.0,
+            "requested": 10.0,
+            "vwap": 0.6,
+            "worst_price": 0.6
+          },
+          "quantity": 10.0,
+          "yes": {
+            "break_even": 0.43705999999999995,
+            "complete": true,
+            "cost": 4.3706,
+            "fee": 0.1706,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 4.2,
+            "requested": 10.0,
+            "vwap": 0.42000000000000004,
+            "worst_price": 0.42
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.627634,
+            "complete": true,
+            "cost": 62.7634,
+            "fee": 1.6634,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 61.1,
+            "requested": 100.0,
+            "vwap": 0.611,
+            "worst_price": 0.62
+          },
+          "quantity": 100.0,
+          "yes": {
+            "break_even": 0.44786000000000004,
+            "complete": true,
+            "cost": 44.786,
+            "fee": 1.716,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 43.07,
+            "requested": 100.0,
+            "vwap": 0.4307,
+            "worst_price": 0.44
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6611567741935483,
+            "complete": false,
+            "cost": 409.9172,
+            "fee": 9.9172,
+            "filled": 620.0,
+            "levels": 8,
+            "notional": 400.0,
+            "requested": 1000.0,
+            "vwap": 0.6451612903225806,
+            "worst_price": 0.67
+          },
+          "quantity": 1000.0,
+          "yes": {
+            "break_even": 0.48241656050955417,
+            "complete": false,
+            "cost": 302.9576,
+            "fee": 10.9176,
+            "filled": 628.0,
+            "levels": 8,
+            "notional": 292.04,
+            "requested": 1000.0,
+            "vwap": 0.465031847133758,
+            "worst_price": 0.49
+          }
+        }
+      ],
+      "spread": 0.02,
+      "stale": false,
+      "status": "active",
+      "subtitle": "Illustrative binary outcome",
+      "ticker": "DEMO-4",
+      "title": "Summit team wins the final?",
+      "valid": true,
+      "volume": 4636.0,
+      "volume_24h": 946.0,
+      "warnings": [],
+      "yes_ask": 0.42,
+      "yes_asks": [
+        {
+          "price": 0.42,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.43,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.44,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.45,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.46,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.47,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.48,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.49,
+          "quantity": 131.0
+        }
+      ],
+      "yes_bid": 0.4,
+      "yes_bids": [
+        {
+          "price": 0.4,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.39,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.38,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.37,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.36,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.35,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.34,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.33,
+          "quantity": 130.0
+        }
+      ]
+    },
+    {
+      "age_seconds": 0.201,
+      "belief": null,
+      "captured_ms": 1790914467915,
+      "category": "Science",
+      "close_time": "2030-01-01T00:00:00Z",
+      "event_ticker": "DEMO-E5",
+      "executable_snapshot": true,
+      "fee": {
+        "known": true,
+        "multiplier": 1.0,
+        "source": "series metadata",
+        "type": "quadratic"
+      },
+      "imbalance": -0.012345679012345678,
+      "last_price": 0.61,
+      "mid": 0.61,
+      "no_ask": 0.4,
+      "no_asks": [
+        {
+          "price": 0.4,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.41,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.42,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.43,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.44,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.45,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.46,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.47,
+          "quantity": 130.0
+        }
+      ],
+      "no_bid": 0.38,
+      "no_bids": [
+        {
+          "price": 0.38,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.37,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.36,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.35,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.34,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.33,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.32,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.31,
+          "quantity": 131.0
+        }
+      ],
+      "open_interest": 3500.0,
+      "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+      "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+      "scenario_no": null,
+      "scenario_yes": null,
+      "selected": {
+        "no": {
+          "break_even": 0.427942,
+          "complete": true,
+          "cost": 42.7942,
+          "fee": 1.6942,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 41.1,
+          "requested": 100.0,
+          "vwap": 0.41100000000000003,
+          "worst_price": 0.42
+        },
+        "yes": {
+          "break_even": 0.647001,
+          "complete": true,
+          "cost": 64.7001,
+          "fee": 1.6301,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 63.07,
+          "requested": 100.0,
+          "vwap": 0.6307,
+          "worst_price": 0.64
+        }
+      },
+      "series_ticker": "DEMO-SERIES",
+      "sizes": [
+        {
+          "no": {
+            "break_even": 0.4168,
+            "complete": true,
+            "cost": 0.4168,
+            "fee": 0.0168,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.4,
+            "requested": 1.0,
+            "vwap": 0.4,
+            "worst_price": 0.4
+          },
+          "quantity": 1.0,
+          "yes": {
+            "break_even": 0.6365,
+            "complete": true,
+            "cost": 0.6365,
+            "fee": 0.0165,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.62,
+            "requested": 1.0,
+            "vwap": 0.62,
+            "worst_price": 0.62
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.4168,
+            "complete": true,
+            "cost": 4.168,
+            "fee": 0.168,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 4.0,
+            "requested": 10.0,
+            "vwap": 0.4,
+            "worst_price": 0.4
+          },
+          "quantity": 10.0,
+          "yes": {
+            "break_even": 0.6365000000000001,
+            "complete": true,
+            "cost": 6.365,
+            "fee": 0.165,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 6.2,
+            "requested": 10.0,
+            "vwap": 0.62,
+            "worst_price": 0.62
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.427942,
+            "complete": true,
+            "cost": 42.7942,
+            "fee": 1.6942,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 41.1,
+            "requested": 100.0,
+            "vwap": 0.41100000000000003,
+            "worst_price": 0.42
+          },
+          "quantity": 100.0,
+          "yes": {
+            "break_even": 0.647001,
+            "complete": true,
+            "cost": 64.7001,
+            "fee": 1.6301,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 63.07,
+            "requested": 100.0,
+            "vwap": 0.6307,
+            "worst_price": 0.64
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.4624212903225806,
+            "complete": false,
+            "cost": 286.7012,
+            "fee": 10.7012,
+            "filled": 620.0,
+            "levels": 8,
+            "notional": 276.0,
+            "requested": 1000.0,
+            "vwap": 0.44516129032258067,
+            "worst_price": 0.47
+          },
+          "quantity": 1000.0,
+          "yes": {
+            "break_even": 0.6805957006369427,
+            "complete": false,
+            "cost": 427.4141,
+            "fee": 9.7741,
+            "filled": 628.0,
+            "levels": 8,
+            "notional": 417.64,
+            "requested": 1000.0,
+            "vwap": 0.665031847133758,
+            "worst_price": 0.69
+          }
+        }
+      ],
+      "spread": 0.02,
+      "stale": false,
+      "status": "active",
+      "subtitle": "Illustrative binary outcome",
+      "ticker": "DEMO-5",
+      "title": "City temperature exceeds 80 degrees?",
+      "valid": true,
+      "volume": 5348.0,
+      "volume_24h": 1028.0,
+      "warnings": [],
+      "yes_ask": 0.62,
+      "yes_asks": [
+        {
+          "price": 0.62,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.63,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.64,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.65,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.66,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.67,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.68,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.69,
+          "quantity": 131.0
+        }
+      ],
+      "yes_bid": 0.6,
+      "yes_bids": [
+        {
+          "price": 0.6,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.59,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.58,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.57,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.56,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.55,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.54,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.53,
+          "quantity": 130.0
+        }
+      ]
+    },
+    {
+      "age_seconds": 0.251,
+      "belief": null,
+      "captured_ms": 1790914467865,
+      "category": "Sports",
+      "close_time": "2030-01-01T00:00:00Z",
+      "event_ticker": "DEMO-E6",
+      "executable_snapshot": true,
+      "fee": {
+        "known": true,
+        "multiplier": 1.0,
+        "source": "series metadata",
+        "type": "quadratic"
+      },
+      "imbalance": -0.012345679012345678,
+      "last_price": 0.41,
+      "mid": 0.41,
+      "no_ask": 0.6,
+      "no_asks": [
+        {
+          "price": 0.6,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.61,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.62,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.63,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.64,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.65,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.66,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.67,
+          "quantity": 130.0
+        }
+      ],
+      "no_bid": 0.58,
+      "no_bids": [
+        {
+          "price": 0.58,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.57,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.56,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.55,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.54,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.53,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.52,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.51,
+          "quantity": 131.0
+        }
+      ],
+      "open_interest": 3500.0,
+      "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+      "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+      "scenario_no": null,
+      "scenario_yes": null,
+      "selected": {
+        "no": {
+          "break_even": 0.627634,
+          "complete": true,
+          "cost": 62.7634,
+          "fee": 1.6634,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 61.1,
+          "requested": 100.0,
+          "vwap": 0.611,
+          "worst_price": 0.62
+        },
+        "yes": {
+          "break_even": 0.44786000000000004,
+          "complete": true,
+          "cost": 44.786,
+          "fee": 1.716,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 43.07,
+          "requested": 100.0,
+          "vwap": 0.4307,
+          "worst_price": 0.44
+        }
+      },
+      "series_ticker": "DEMO-SERIES",
+      "sizes": [
+        {
+          "no": {
+            "break_even": 0.6168,
+            "complete": true,
+            "cost": 0.6168,
+            "fee": 0.0168,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.6,
+            "requested": 1.0,
+            "vwap": 0.6,
+            "worst_price": 0.6
+          },
+          "quantity": 1.0,
+          "yes": {
+            "break_even": 0.4371,
+            "complete": true,
+            "cost": 0.4371,
+            "fee": 0.0171,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.42,
+            "requested": 1.0,
+            "vwap": 0.42,
+            "worst_price": 0.42
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6168,
+            "complete": true,
+            "cost": 6.168,
+            "fee": 0.168,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 6.0,
+            "requested": 10.0,
+            "vwap": 0.6,
+            "worst_price": 0.6
+          },
+          "quantity": 10.0,
+          "yes": {
+            "break_even": 0.43705999999999995,
+            "complete": true,
+            "cost": 4.3706,
+            "fee": 0.1706,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 4.2,
+            "requested": 10.0,
+            "vwap": 0.42000000000000004,
+            "worst_price": 0.42
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.627634,
+            "complete": true,
+            "cost": 62.7634,
+            "fee": 1.6634,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 61.1,
+            "requested": 100.0,
+            "vwap": 0.611,
+            "worst_price": 0.62
+          },
+          "quantity": 100.0,
+          "yes": {
+            "break_even": 0.44786000000000004,
+            "complete": true,
+            "cost": 44.786,
+            "fee": 1.716,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 43.07,
+            "requested": 100.0,
+            "vwap": 0.4307,
+            "worst_price": 0.44
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6611567741935483,
+            "complete": false,
+            "cost": 409.9172,
+            "fee": 9.9172,
+            "filled": 620.0,
+            "levels": 8,
+            "notional": 400.0,
+            "requested": 1000.0,
+            "vwap": 0.6451612903225806,
+            "worst_price": 0.67
+          },
+          "quantity": 1000.0,
+          "yes": {
+            "break_even": 0.48241656050955417,
+            "complete": false,
+            "cost": 302.9576,
+            "fee": 10.9176,
+            "filled": 628.0,
+            "levels": 8,
+            "notional": 292.04,
+            "requested": 1000.0,
+            "vwap": 0.465031847133758,
+            "worst_price": 0.49
+          }
+        }
+      ],
+      "spread": 0.02,
+      "stale": false,
+      "status": "active",
+      "subtitle": "Illustrative binary outcome",
+      "ticker": "DEMO-6",
+      "title": "City temperature exceeds 90 degrees?",
+      "valid": true,
+      "volume": 6060.0,
+      "volume_24h": 1110.0,
+      "warnings": [],
+      "yes_ask": 0.42,
+      "yes_asks": [
+        {
+          "price": 0.42,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.43,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.44,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.45,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.46,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.47,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.48,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.49,
+          "quantity": 131.0
+        }
+      ],
+      "yes_bid": 0.4,
+      "yes_bids": [
+        {
+          "price": 0.4,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.39,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.38,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.37,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.36,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.35,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.34,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.33,
+          "quantity": 130.0
+        }
+      ]
+    },
+    {
+      "age_seconds": 0.301,
+      "belief": null,
+      "captured_ms": 1790914467815,
+      "category": "Science",
+      "close_time": "2030-01-01T00:00:00Z",
+      "event_ticker": "DEMO-E7",
+      "executable_snapshot": true,
+      "fee": {
+        "known": true,
+        "multiplier": 1.0,
+        "source": "series metadata",
+        "type": "quadratic"
+      },
+      "imbalance": -0.012345679012345678,
+      "last_price": 0.46,
+      "mid": 0.46,
+      "no_ask": 0.55,
+      "no_asks": [
+        {
+          "price": 0.55,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.56,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.57,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.58,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.59,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.6,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.61,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.62,
+          "quantity": 130.0
+        }
+      ],
+      "no_bid": 0.53,
+      "no_bids": [
+        {
+          "price": 0.53,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.52,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.51,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.5,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.49,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.48,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.47,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.46,
+          "quantity": 131.0
+        }
+      ],
+      "open_interest": 3500.0,
+      "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+      "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+      "scenario_no": null,
+      "scenario_yes": null,
+      "selected": {
+        "no": {
+          "break_even": 0.578236,
+          "complete": true,
+          "cost": 57.8236,
+          "fee": 1.7236,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 56.1,
+          "requested": 100.0,
+          "vwap": 0.561,
+          "worst_price": 0.57
+        },
+        "yes": {
+          "break_even": 0.49817,
+          "complete": true,
+          "cost": 49.817,
+          "fee": 1.747,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 48.07,
+          "requested": 100.0,
+          "vwap": 0.4807,
+          "worst_price": 0.49
+        }
+      },
+      "series_ticker": "DEMO-SERIES",
+      "sizes": [
+        {
+          "no": {
+            "break_even": 0.5674,
+            "complete": true,
+            "cost": 0.5674,
+            "fee": 0.0174,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.55,
+            "requested": 1.0,
+            "vwap": 0.55,
+            "worst_price": 0.55
+          },
+          "quantity": 1.0,
+          "yes": {
+            "break_even": 0.4875,
+            "complete": true,
+            "cost": 0.4875,
+            "fee": 0.0175,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.47,
+            "requested": 1.0,
+            "vwap": 0.47,
+            "worst_price": 0.47
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.56733,
+            "complete": true,
+            "cost": 5.6733,
+            "fee": 0.1733,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 5.5,
+            "requested": 10.0,
+            "vwap": 0.55,
+            "worst_price": 0.55
+          },
+          "quantity": 10.0,
+          "yes": {
+            "break_even": 0.48744,
+            "complete": true,
+            "cost": 4.8744,
+            "fee": 0.1744,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 4.7,
+            "requested": 10.0,
+            "vwap": 0.47000000000000003,
+            "worst_price": 0.47
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.578236,
+            "complete": true,
+            "cost": 57.8236,
+            "fee": 1.7236,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 56.1,
+            "requested": 100.0,
+            "vwap": 0.561,
+            "worst_price": 0.57
+          },
+          "quantity": 100.0,
+          "yes": {
+            "break_even": 0.49817,
+            "complete": true,
+            "cost": 49.817,
+            "fee": 1.747,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 48.07,
+            "requested": 100.0,
+            "vwap": 0.4807,
+            "worst_price": 0.49
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6119979032258064,
+            "complete": false,
+            "cost": 379.4387,
+            "fee": 10.4387,
+            "filled": 620.0,
+            "levels": 8,
+            "notional": 369.0,
+            "requested": 1000.0,
+            "vwap": 0.5951612903225807,
+            "worst_price": 0.62
+          },
+          "quantity": 1000.0,
+          "yes": {
+            "break_even": 0.5324864649681529,
+            "complete": false,
+            "cost": 334.4015,
+            "fee": 10.9615,
+            "filled": 628.0,
+            "levels": 8,
+            "notional": 323.44,
+            "requested": 1000.0,
+            "vwap": 0.5150318471337579,
+            "worst_price": 0.54
+          }
+        }
+      ],
+      "spread": 0.02,
+      "stale": false,
+      "status": "active",
+      "subtitle": "Illustrative binary outcome",
+      "ticker": "DEMO-7",
+      "title": "New battery achieves its target?",
+      "valid": true,
+      "volume": 6772.0,
+      "volume_24h": 1192.0,
+      "warnings": [],
+      "yes_ask": 0.47,
+      "yes_asks": [
+        {
+          "price": 0.47,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.48,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.49,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.5,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.51,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.52,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.53,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.54,
+          "quantity": 131.0
+        }
+      ],
+      "yes_bid": 0.45,
+      "yes_bids": [
+        {
+          "price": 0.45,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.44,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.43,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.42,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.41,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.4,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.39,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.38,
+          "quantity": 130.0
+        }
+      ]
+    },
+    {
+      "age_seconds": 0.351,
+      "belief": null,
+      "captured_ms": 1790914467765,
+      "category": "Sports",
+      "close_time": "2030-01-01T00:00:00Z",
+      "event_ticker": "DEMO-E8",
+      "executable_snapshot": true,
+      "fee": {
+        "known": true,
+        "multiplier": 1.0,
+        "source": "series metadata",
+        "type": "quadratic"
+      },
+      "imbalance": null,
+      "last_price": 0.51,
+      "mid": null,
+      "no_ask": null,
+      "no_asks": [],
+      "no_bid": 0.48,
+      "no_bids": [
+        {
+          "price": 0.48,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.47,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.46,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.45,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.44,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.43,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.42,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.41,
+          "quantity": 131.0
+        }
+      ],
+      "open_interest": 3500.0,
+      "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+      "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+      "scenario_no": null,
+      "scenario_yes": null,
+      "selected": {
+        "no": {
+          "break_even": null,
+          "complete": false,
+          "cost": 0.0,
+          "fee": 0.0,
+          "filled": 0.0,
+          "levels": 0,
+          "notional": 0.0,
+          "requested": 100.0,
+          "vwap": null,
+          "worst_price": null
+        },
+        "yes": {
+          "break_even": 0.54813,
+          "complete": true,
+          "cost": 54.813,
+          "fee": 1.743,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 53.07,
+          "requested": 100.0,
+          "vwap": 0.5307,
+          "worst_price": 0.54
+        }
+      },
+      "series_ticker": "DEMO-SERIES",
+      "sizes": [
+        {
+          "no": {
+            "break_even": null,
+            "complete": false,
+            "cost": 0.0,
+            "fee": 0.0,
+            "filled": 0.0,
+            "levels": 0,
+            "notional": 0.0,
+            "requested": 1.0,
+            "vwap": null,
+            "worst_price": null
+          },
+          "quantity": 1.0,
+          "yes": {
+            "break_even": 0.5375,
+            "complete": true,
+            "cost": 0.5375,
+            "fee": 0.0175,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.52,
+            "requested": 1.0,
+            "vwap": 0.52,
+            "worst_price": 0.52
+          }
+        },
+        {
+          "no": {
+            "break_even": null,
+            "complete": false,
+            "cost": 0.0,
+            "fee": 0.0,
+            "filled": 0.0,
+            "levels": 0,
+            "notional": 0.0,
+            "requested": 10.0,
+            "vwap": null,
+            "worst_price": null
+          },
+          "quantity": 10.0,
+          "yes": {
+            "break_even": 0.53748,
+            "complete": true,
+            "cost": 5.3748,
+            "fee": 0.1748,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 5.2,
+            "requested": 10.0,
+            "vwap": 0.52,
+            "worst_price": 0.52
+          }
+        },
+        {
+          "no": {
+            "break_even": null,
+            "complete": false,
+            "cost": 0.0,
+            "fee": 0.0,
+            "filled": 0.0,
+            "levels": 0,
+            "notional": 0.0,
+            "requested": 100.0,
+            "vwap": null,
+            "worst_price": null
+          },
+          "quantity": 100.0,
+          "yes": {
+            "break_even": 0.54813,
+            "complete": true,
+            "cost": 54.813,
+            "fee": 1.743,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 53.07,
+            "requested": 100.0,
+            "vwap": 0.5307,
+            "worst_price": 0.54
+          }
+        },
+        {
+          "no": {
+            "break_even": null,
+            "complete": false,
+            "cost": 0.0,
+            "fee": 0.0,
+            "filled": 0.0,
+            "levels": 0,
+            "notional": 0.0,
+            "requested": 1000.0,
+            "vwap": null,
+            "worst_price": null
+          },
+          "quantity": 1000.0,
+          "yes": {
+            "break_even": 0.5822062101910828,
+            "complete": false,
+            "cost": 365.6255,
+            "fee": 10.7855,
+            "filled": 628.0,
+            "levels": 8,
+            "notional": 354.84,
+            "requested": 1000.0,
+            "vwap": 0.5650318471337579,
+            "worst_price": 0.59
+          }
+        }
+      ],
+      "spread": null,
+      "stale": false,
+      "status": "active",
+      "subtitle": "Illustrative binary outcome",
+      "ticker": "DEMO-8",
+      "title": "One-sided example market?",
+      "valid": true,
+      "volume": 7484.0,
+      "volume_24h": 1274.0,
+      "warnings": [
+        "One-sided or empty book; midpoint may be unavailable"
+      ],
+      "yes_ask": 0.52,
+      "yes_asks": [
+        {
+          "price": 0.52,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.53,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.54,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.55,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.56,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.57,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.58,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.59,
+          "quantity": 131.0
+        }
+      ],
+      "yes_bid": null,
+      "yes_bids": []
+    },
+    {
+      "age_seconds": 0.401,
+      "belief": null,
+      "captured_ms": 1790914467715,
+      "category": "Science",
+      "close_time": "2030-01-01T00:00:00Z",
+      "event_ticker": "DEMO-E9",
+      "executable_snapshot": false,
+      "fee": {
+        "known": false,
+        "multiplier": 1.0,
+        "source": "unsupported fee type: flat",
+        "type": "flat"
+      },
+      "imbalance": -0.012345679012345678,
+      "last_price": 0.56,
+      "mid": 0.56,
+      "no_ask": 0.45,
+      "no_asks": [
+        {
+          "price": 0.45,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.46,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.47,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.48,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.49,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.5,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.51,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.52,
+          "quantity": 130.0
+        }
+      ],
+      "no_bid": 0.43,
+      "no_bids": [
+        {
+          "price": 0.43,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.42,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.41,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.4,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.39,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.38,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.37,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.36,
+          "quantity": 131.0
+        }
+      ],
+      "open_interest": 3500.0,
+      "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+      "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+      "scenario_no": null,
+      "scenario_yes": null,
+      "selected": {
+        "no": {
+          "break_even": null,
+          "complete": true,
+          "cost": null,
+          "fee": null,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 46.1,
+          "requested": 100.0,
+          "vwap": 0.461,
+          "worst_price": 0.47
+        },
+        "yes": {
+          "break_even": null,
+          "complete": true,
+          "cost": null,
+          "fee": null,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 58.07,
+          "requested": 100.0,
+          "vwap": 0.5807,
+          "worst_price": 0.59
+        }
+      },
+      "series_ticker": "DEMO-SERIES",
+      "sizes": [
+        {
+          "no": {
+            "break_even": null,
+            "complete": true,
+            "cost": null,
+            "fee": null,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.45,
+            "requested": 1.0,
+            "vwap": 0.45,
+            "worst_price": 0.45
+          },
+          "quantity": 1.0,
+          "yes": {
+            "break_even": null,
+            "complete": true,
+            "cost": null,
+            "fee": null,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.57,
+            "requested": 1.0,
+            "vwap": 0.57,
+            "worst_price": 0.57
+          }
+        },
+        {
+          "no": {
+            "break_even": null,
+            "complete": true,
+            "cost": null,
+            "fee": null,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 4.5,
+            "requested": 10.0,
+            "vwap": 0.45,
+            "worst_price": 0.45
+          },
+          "quantity": 10.0,
+          "yes": {
+            "break_even": null,
+            "complete": true,
+            "cost": null,
+            "fee": null,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 5.7,
+            "requested": 10.0,
+            "vwap": 0.5700000000000001,
+            "worst_price": 0.57
+          }
+        },
+        {
+          "no": {
+            "break_even": null,
+            "complete": true,
+            "cost": null,
+            "fee": null,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 46.1,
+            "requested": 100.0,
+            "vwap": 0.461,
+            "worst_price": 0.47
+          },
+          "quantity": 100.0,
+          "yes": {
+            "break_even": null,
+            "complete": true,
+            "cost": null,
+            "fee": null,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 58.07,
+            "requested": 100.0,
+            "vwap": 0.5807,
+            "worst_price": 0.59
+          }
+        },
+        {
+          "no": {
+            "break_even": null,
+            "complete": false,
+            "cost": null,
+            "fee": null,
+            "filled": 620.0,
+            "levels": 8,
+            "notional": 307.0,
+            "requested": 1000.0,
+            "vwap": 0.49516129032258066,
+            "worst_price": 0.52
+          },
+          "quantity": 1000.0,
+          "yes": {
+            "break_even": null,
+            "complete": false,
+            "cost": null,
+            "fee": null,
+            "filled": 628.0,
+            "levels": 8,
+            "notional": 386.24,
+            "requested": 1000.0,
+            "vwap": 0.615031847133758,
+            "worst_price": 0.64
+          }
+        }
+      ],
+      "spread": 0.02,
+      "stale": false,
+      "status": "active",
+      "subtitle": "Illustrative binary outcome",
+      "ticker": "DEMO-9",
+      "title": "Unknown fee schedule example?",
+      "valid": true,
+      "volume": 8196.0,
+      "volume_24h": 1356.0,
+      "warnings": [
+        "Fee-adjusted value unavailable: unsupported fee type: flat"
+      ],
+      "yes_ask": 0.57,
+      "yes_asks": [
+        {
+          "price": 0.57,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.58,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.59,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.6,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.61,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.62,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.63,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.64,
+          "quantity": 131.0
+        }
+      ],
+      "yes_bid": 0.55,
+      "yes_bids": [
+        {
+          "price": 0.55,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.54,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.53,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.52,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.51,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.5,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.49,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.48,
+          "quantity": 130.0
+        }
+      ]
+    },
+    {
+      "age_seconds": 0.451,
+      "captured_ms": 1790914467665,
+      "category": "Sports",
+      "close_time": "2030-01-01T00:00:00Z",
+      "event_ticker": "DEMO-E10",
+      "fee": {
+        "known": true,
+        "multiplier": 1.0,
+        "source": "series metadata",
+        "type": "quadratic"
+      },
+      "imbalance": -0.012345679012345678,
+      "last_price": 0.61,
+      "mid": 0.595,
+      "no_ask": 0.4,
+      "no_asks": [
+        {
+          "price": 0.4,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.41,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.42,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.43,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.44,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.45,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.46,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.47,
+          "quantity": 130.0
+        }
+      ],
+      "no_bid": 0.41,
+      "no_bids": [
+        {
+          "price": 0.41,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.4,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.39,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.38,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.37,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.36,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.35,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.34,
+          "quantity": 131.0
+        }
+      ],
+      "open_interest": 3500.0,
+      "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+      "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+      "series_ticker": "DEMO-SERIES",
+      "spread": -0.01,
+      "stale": false,
+      "status": "active",
+      "subtitle": "Illustrative binary outcome",
+      "ticker": "DEMO-10",
+      "title": "Crossed-book example?",
+      "valid": false,
+      "volume": 8908.0,
+      "volume_24h": 1438.0,
+      "warnings": [
+        "Crossed binary book; execution estimates suppressed"
+      ],
+      "yes_ask": 0.59,
+      "yes_asks": [
+        {
+          "price": 0.59,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.6,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.61,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.62,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.63,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.64,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.65,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.66,
+          "quantity": 131.0
+        }
+      ],
+      "yes_bid": 0.6,
+      "yes_bids": [
+        {
+          "price": 0.6,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.59,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.58,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.57,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.56,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.55,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.54,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.53,
+          "quantity": 130.0
+        }
+      ]
+    },
+    {
+      "age_seconds": 0.501,
+      "belief": null,
+      "captured_ms": 1790914467615,
+      "category": "Science",
+      "close_time": "2030-01-01T00:00:00Z",
+      "event_ticker": "DEMO-E11",
+      "executable_snapshot": true,
+      "fee": {
+        "known": true,
+        "multiplier": 1.0,
+        "source": "series metadata",
+        "type": "quadratic"
+      },
+      "imbalance": -0.6666666666666666,
+      "last_price": 0.41,
+      "mid": 0.41,
+      "no_ask": 0.6,
+      "no_asks": [
+        {
+          "price": 0.6,
+          "quantity": 0.25
+        },
+        {
+          "price": 0.61,
+          "quantity": 0.25
+        },
+        {
+          "price": 0.62,
+          "quantity": 0.25
+        },
+        {
+          "price": 0.63,
+          "quantity": 0.25
+        },
+        {
+          "price": 0.64,
+          "quantity": 0.25
+        },
+        {
+          "price": 0.65,
+          "quantity": 0.25
+        },
+        {
+          "price": 0.66,
+          "quantity": 0.25
+        },
+        {
+          "price": 0.67,
+          "quantity": 0.25
+        }
+      ],
+      "no_bid": 0.58,
+      "no_bids": [
+        {
+          "price": 0.58,
+          "quantity": 1.25
+        },
+        {
+          "price": 0.57,
+          "quantity": 1.25
+        },
+        {
+          "price": 0.56,
+          "quantity": 1.25
+        },
+        {
+          "price": 0.55,
+          "quantity": 1.25
+        },
+        {
+          "price": 0.54,
+          "quantity": 1.25
+        },
+        {
+          "price": 0.53,
+          "quantity": 1.25
+        },
+        {
+          "price": 0.52,
+          "quantity": 1.25
+        },
+        {
+          "price": 0.51,
+          "quantity": 1.25
+        }
+      ],
+      "open_interest": 3500.0,
+      "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+      "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+      "scenario_no": null,
+      "scenario_yes": null,
+      "selected": {
+        "no": {
+          "break_even": 0.6512,
+          "complete": false,
+          "cost": 1.3024,
+          "fee": 0.0324,
+          "filled": 2.0,
+          "levels": 8,
+          "notional": 1.27,
+          "requested": 100.0,
+          "vwap": 0.635,
+          "worst_price": 0.67
+        },
+        "yes": {
+          "break_even": 0.47233,
+          "complete": false,
+          "cost": 4.7233,
+          "fee": 0.1733,
+          "filled": 10.0,
+          "levels": 8,
+          "notional": 4.55,
+          "requested": 100.0,
+          "vwap": 0.45499999999999996,
+          "worst_price": 0.49
+        }
+      },
+      "series_ticker": "DEMO-SERIES",
+      "sizes": [
+        {
+          "no": {
+            "break_even": 0.6316,
+            "complete": true,
+            "cost": 0.6316,
+            "fee": 0.0166,
+            "filled": 1.0,
+            "levels": 4,
+            "notional": 0.615,
+            "requested": 1.0,
+            "vwap": 0.615,
+            "worst_price": 0.63
+          },
+          "quantity": 1.0,
+          "yes": {
+            "break_even": 0.4371,
+            "complete": true,
+            "cost": 0.4371,
+            "fee": 0.0171,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.42,
+            "requested": 1.0,
+            "vwap": 0.42,
+            "worst_price": 0.42
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6512,
+            "complete": false,
+            "cost": 1.3024,
+            "fee": 0.0324,
+            "filled": 2.0,
+            "levels": 8,
+            "notional": 1.27,
+            "requested": 10.0,
+            "vwap": 0.635,
+            "worst_price": 0.67
+          },
+          "quantity": 10.0,
+          "yes": {
+            "break_even": 0.47233,
+            "complete": true,
+            "cost": 4.7233,
+            "fee": 0.1733,
+            "filled": 10.0,
+            "levels": 8,
+            "notional": 4.55,
+            "requested": 10.0,
+            "vwap": 0.45499999999999996,
+            "worst_price": 0.49
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6512,
+            "complete": false,
+            "cost": 1.3024,
+            "fee": 0.0324,
+            "filled": 2.0,
+            "levels": 8,
+            "notional": 1.27,
+            "requested": 100.0,
+            "vwap": 0.635,
+            "worst_price": 0.67
+          },
+          "quantity": 100.0,
+          "yes": {
+            "break_even": 0.47233,
+            "complete": false,
+            "cost": 4.7233,
+            "fee": 0.1733,
+            "filled": 10.0,
+            "levels": 8,
+            "notional": 4.55,
+            "requested": 100.0,
+            "vwap": 0.45499999999999996,
+            "worst_price": 0.49
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6512,
+            "complete": false,
+            "cost": 1.3024,
+            "fee": 0.0324,
+            "filled": 2.0,
+            "levels": 8,
+            "notional": 1.27,
+            "requested": 1000.0,
+            "vwap": 0.635,
+            "worst_price": 0.67
+          },
+          "quantity": 1000.0,
+          "yes": {
+            "break_even": 0.47233,
+            "complete": false,
+            "cost": 4.7233,
+            "fee": 0.1733,
+            "filled": 10.0,
+            "levels": 8,
+            "notional": 4.55,
+            "requested": 1000.0,
+            "vwap": 0.45499999999999996,
+            "worst_price": 0.49
+          }
+        }
+      ],
+      "spread": 0.02,
+      "stale": false,
+      "status": "active",
+      "subtitle": "Illustrative binary outcome",
+      "ticker": "DEMO-11",
+      "title": "Thin liquidity example?",
+      "valid": true,
+      "volume": 9620.0,
+      "volume_24h": 1520.0,
+      "warnings": [],
+      "yes_ask": 0.42,
+      "yes_asks": [
+        {
+          "price": 0.42,
+          "quantity": 1.25
+        },
+        {
+          "price": 0.43,
+          "quantity": 1.25
+        },
+        {
+          "price": 0.44,
+          "quantity": 1.25
+        },
+        {
+          "price": 0.45,
+          "quantity": 1.25
+        },
+        {
+          "price": 0.46,
+          "quantity": 1.25
+        },
+        {
+          "price": 0.47,
+          "quantity": 1.25
+        },
+        {
+          "price": 0.48,
+          "quantity": 1.25
+        },
+        {
+          "price": 0.49,
+          "quantity": 1.25
+        }
+      ],
+      "yes_bid": 0.4,
+      "yes_bids": [
+        {
+          "price": 0.4,
+          "quantity": 0.25
+        },
+        {
+          "price": 0.39,
+          "quantity": 0.25
+        },
+        {
+          "price": 0.38,
+          "quantity": 0.25
+        },
+        {
+          "price": 0.37,
+          "quantity": 0.25
+        },
+        {
+          "price": 0.36,
+          "quantity": 0.25
+        },
+        {
+          "price": 0.35,
+          "quantity": 0.25
+        },
+        {
+          "price": 0.34,
+          "quantity": 0.25
+        },
+        {
+          "price": 0.33,
+          "quantity": 0.25
+        }
+      ]
+    },
+    {
+      "age_seconds": 120.001,
+      "belief": null,
+      "captured_ms": 1790914348115,
+      "category": "Sports",
+      "close_time": "2030-01-01T00:00:00Z",
+      "event_ticker": "DEMO-E12",
+      "executable_snapshot": false,
+      "fee": {
+        "known": true,
+        "multiplier": 1.0,
+        "source": "series metadata",
+        "type": "quadratic"
+      },
+      "imbalance": -0.012345679012345678,
+      "last_price": 0.46,
+      "mid": 0.46,
+      "no_ask": 0.55,
+      "no_asks": [
+        {
+          "price": 0.55,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.56,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.57,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.58,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.59,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.6,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.61,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.62,
+          "quantity": 130.0
+        }
+      ],
+      "no_bid": 0.53,
+      "no_bids": [
+        {
+          "price": 0.53,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.52,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.51,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.5,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.49,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.48,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.47,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.46,
+          "quantity": 131.0
+        }
+      ],
+      "open_interest": 3500.0,
+      "rules_primary": "Invented demonstration contract. Binary YES pays $1; NO pays $0 when the condition is true.",
+      "rules_secondary": "No live market or real settlement source. All names, quotes and activity are synthetic.",
+      "scenario_no": null,
+      "scenario_yes": null,
+      "selected": {
+        "no": {
+          "break_even": 0.578236,
+          "complete": true,
+          "cost": 57.8236,
+          "fee": 1.7236,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 56.1,
+          "requested": 100.0,
+          "vwap": 0.561,
+          "worst_price": 0.57
+        },
+        "yes": {
+          "break_even": 0.49817,
+          "complete": true,
+          "cost": 49.817,
+          "fee": 1.747,
+          "filled": 100.0,
+          "levels": 3,
+          "notional": 48.07,
+          "requested": 100.0,
+          "vwap": 0.4807,
+          "worst_price": 0.49
+        }
+      },
+      "series_ticker": "DEMO-SERIES",
+      "sizes": [
+        {
+          "no": {
+            "break_even": 0.5674,
+            "complete": true,
+            "cost": 0.5674,
+            "fee": 0.0174,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.55,
+            "requested": 1.0,
+            "vwap": 0.55,
+            "worst_price": 0.55
+          },
+          "quantity": 1.0,
+          "yes": {
+            "break_even": 0.4875,
+            "complete": true,
+            "cost": 0.4875,
+            "fee": 0.0175,
+            "filled": 1.0,
+            "levels": 1,
+            "notional": 0.47,
+            "requested": 1.0,
+            "vwap": 0.47,
+            "worst_price": 0.47
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.56733,
+            "complete": true,
+            "cost": 5.6733,
+            "fee": 0.1733,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 5.5,
+            "requested": 10.0,
+            "vwap": 0.55,
+            "worst_price": 0.55
+          },
+          "quantity": 10.0,
+          "yes": {
+            "break_even": 0.48744,
+            "complete": true,
+            "cost": 4.8744,
+            "fee": 0.1744,
+            "filled": 10.0,
+            "levels": 1,
+            "notional": 4.7,
+            "requested": 10.0,
+            "vwap": 0.47000000000000003,
+            "worst_price": 0.47
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.578236,
+            "complete": true,
+            "cost": 57.8236,
+            "fee": 1.7236,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 56.1,
+            "requested": 100.0,
+            "vwap": 0.561,
+            "worst_price": 0.57
+          },
+          "quantity": 100.0,
+          "yes": {
+            "break_even": 0.49817,
+            "complete": true,
+            "cost": 49.817,
+            "fee": 1.747,
+            "filled": 100.0,
+            "levels": 3,
+            "notional": 48.07,
+            "requested": 100.0,
+            "vwap": 0.4807,
+            "worst_price": 0.49
+          }
+        },
+        {
+          "no": {
+            "break_even": 0.6119979032258064,
+            "complete": false,
+            "cost": 379.4387,
+            "fee": 10.4387,
+            "filled": 620.0,
+            "levels": 8,
+            "notional": 369.0,
+            "requested": 1000.0,
+            "vwap": 0.5951612903225807,
+            "worst_price": 0.62
+          },
+          "quantity": 1000.0,
+          "yes": {
+            "break_even": 0.5324864649681529,
+            "complete": false,
+            "cost": 334.4015,
+            "fee": 10.9615,
+            "filled": 628.0,
+            "levels": 8,
+            "notional": 323.44,
+            "requested": 1000.0,
+            "vwap": 0.5150318471337579,
+            "worst_price": 0.54
+          }
+        }
+      ],
+      "spread": 0.02,
+      "stale": true,
+      "status": "active",
+      "subtitle": "Illustrative binary outcome",
+      "ticker": "DEMO-12",
+      "title": "Archived observation example?",
+      "valid": true,
+      "volume": 10332.0,
+      "volume_24h": 1602.0,
+      "warnings": [
+        "Snapshot timestamp is stale, missing, or in the future"
+      ],
+      "yes_ask": 0.47,
+      "yes_asks": [
+        {
+          "price": 0.47,
+          "quantity": 26.0
+        },
+        {
+          "price": 0.48,
+          "quantity": 41.0
+        },
+        {
+          "price": 0.49,
+          "quantity": 56.0
+        },
+        {
+          "price": 0.5,
+          "quantity": 71.0
+        },
+        {
+          "price": 0.51,
+          "quantity": 86.0
+        },
+        {
+          "price": 0.52,
+          "quantity": 101.0
+        },
+        {
+          "price": 0.53,
+          "quantity": 116.0
+        },
+        {
+          "price": 0.54,
+          "quantity": 131.0
+        }
+      ],
+      "yes_bid": 0.45,
+      "yes_bids": [
+        {
+          "price": 0.45,
+          "quantity": 25.0
+        },
+        {
+          "price": 0.44,
+          "quantity": 40.0
+        },
+        {
+          "price": 0.43,
+          "quantity": 55.0
+        },
+        {
+          "price": 0.42,
+          "quantity": 70.0
+        },
+        {
+          "price": 0.41,
+          "quantity": 85.0
+        },
+        {
+          "price": 0.4,
+          "quantity": 100.0
+        },
+        {
+          "price": 0.39,
+          "quantity": 115.0
+        },
+        {
+          "price": 0.38,
+          "quantity": 130.0
+        }
+      ]
+    }
+  ],
+  "max_skew_seconds": 10.0,
+  "quantity": 100.0,
+  "schema": "kalshilens.analysis.v1",
+  "snapshot_completed_at": "2026-10-02T04:14:28Z",
+  "snapshot_fingerprint_fnv1a64": "da733159e5c236d5",
+  "snapshot_started_at": "2026-10-02T04:14:28Z",
+  "source": "SYNTHETIC DEMONSTRATION - no real Kalshi quotes",
+  "stale_after_seconds": 60.0,
+  "structural_checks": [
+    {
+      "assumption": "At most one of the included markets settles YES; remaining included markets settle NO at $1. Exhaustiveness is NOT assumed.",
+      "candidate": true,
+      "cost": 188.2902,
+      "issues": [
+        "Theoretical binary-settlement bound only; review rules, exceptional settlement and non-atomic leg risk"
+      ],
+      "label": "Mutually exclusive NO basket: DEMO-FINAL",
+      "legs": [
+        {
+          "side": "NO",
+          "ticker": "DEMO-2"
+        },
+        {
+          "side": "NO",
+          "ticker": "DEMO-3"
+        },
+        {
+          "side": "NO",
+          "ticker": "DEMO-4"
+        }
+      ],
+      "net_floor": 11.709800000000001,
+      "payout_floor": 200.0,
+      "quantity": 100.0
+    }
+  ],
+  "synthetic": true,
+  "version": "1.0.0"
+}

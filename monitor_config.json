@@ -1,0 +1,19 @@
+{
+  "quantity": 10,
+  "member": "direct",
+  "window": 60,
+  "min_samples": 8,
+  "confirmations": 2,
+  "rebase_after": 5,
+  "max_age_seconds": 60,
+  "max_gap_seconds": 180,
+  "lookback_seconds": 7200,
+  "min_span_seconds": 60,
+  "max_spread": 0.08,
+  "z_threshold": 3.5,
+  "min_move": 0.02,
+  "sigma_floor": 0.005,
+  "execution_buffer": 0.005,
+  "min_edge": 0.01,
+  "forecasts": {}
+}
