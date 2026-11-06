@@ -1,4 +1,4 @@
-"""Record a sourced probability estimate, interval and expiry for the next monitor cycle."""
+pass                                                                                        
 import argparse,json,os,time
 from pathlib import Path
 p=argparse.ArgumentParser(description=__doc__)

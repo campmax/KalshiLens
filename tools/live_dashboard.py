@@ -1,4 +1,4 @@
-"""Local dashboard and scheduler. Market collection and all pricing analytics run in C++."""
+pass                                                                                        
 import argparse,collections,copy,json,os,shutil,subprocess,sys,threading,time,webbrowser
 from datetime import datetime,timezone
 from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
@@ -11,7 +11,7 @@ def atomic_json(path,value):
     temp=path.with_suffix(path.suffix+'.tmp');temp.write_text(json.dumps(value,allow_nan=False),encoding='utf-8');os.replace(temp,path)
 
 def demo_snapshot(step):
-    # Explicitly invented time series, including isolated and persistent shocks.
+                                                                                
     records=[]
     for i in range(6):
         base=[.52,.38,.65,.45,.55,.40][i];phase=step%30
@@ -88,11 +88,11 @@ def main():
             attempt+=1;capture=session/f'capture_{attempt:06d}';log=session/'last_capture.log'
             update(status='collecting',message=f'Collecting snapshot {attempt}; previous quotes retain their original timestamps.')
             try:
-                # Freeze one config copy per cycle; edits or external forecast updates apply next cycle.
+                                                                                                        
                 cfg=json.loads(args.config.read_text(encoding='utf-8'));atomic_json(session/'cycle_config.json',cfg)
                 if args.demo:
                     capture.mkdir();snapshot=demo_snapshot(attempt-1);atomic_json(capture/'snapshot.json',snapshot)
-                    # Demo-only acceleration. The synthetic flag is preserved on every output.
+                                                                                              
                     cfg['min_span_seconds']=1
                     if 'SIM-6' not in cfg.get('forecasts',{}):cfg.setdefault('forecasts',{})['SIM-6']={'probability':.55,'lower':.50,'upper':.60,'source':'Invented demo estimate','as_of_ms':now()-1000,'valid_until_ms':now()+60000}
                     atomic_json(session/'cycle_config.json',cfg)
