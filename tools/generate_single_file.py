@@ -1,4 +1,3 @@
-pass                                                                                    
 from pathlib import Path
 root = Path(__file__).resolve().parents[1]
 html = (root / 'web/dashboard.html').read_text(encoding='utf-8')

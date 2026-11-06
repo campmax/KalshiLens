@@ -15993,25 +15993,7 @@ NLOHMANN_JSON_NAMESPACE_BEGIN
 namespace detail
 {
 
-/*!
-@brief implements the Grisu2 algorithm for binary to decimal floating-point
-conversion.
-
-This implementation is a slightly modified version of the reference
-implementation which may be obtained from
-http://florian.loitsch.com/publications (bench.tar.gz).
-
-The code is distributed under the MIT license, Copyright (c) 2009 Florian Loitsch.
-
-For a detailed description of the algorithm see:
-
-[1] Loitsch, "Printing Floating-Point Numbers Quickly and Accurately with
-    Integers", Proceedings of the ACM SIGPLAN 2010 Conference on Programming
-    Language Design and Implementation, PLDI 2010
-[2] Burger, Dybvig, "Printing Floating-Point Numbers Quickly and Accurately",
-    Proceedings of the ACM SIGPLAN 1996 Conference on Programming Language
-    Design and Implementation, PLDI 1996
-*/
+/* The code is distributed under the MIT license, Copyright (c) 2009 Florian Loitsch. */
 namespace dtoa_impl
 {
 
@@ -17826,27 +17808,7 @@ class serializer
         }
     }
 
-    /*!
-    @brief check whether a string is UTF-8 encoded
-
-    The function checks each byte of a string whether it is UTF-8 encoded. The
-    result of the check is stored in the @a state parameter. The function must
-    be called initially with state 0 (accept). State 1 means the string must
-    be rejected, because the current byte is not allowed. If the string is
-    completely processed, but the state is non-zero, the string ended
-    prematurely; that is, the last byte indicated more bytes should have
-    followed.
-
-    @param[in,out] state  the state of the decoding
-    @param[in,out] codep  codepoint (valid only if resulting state is UTF8_ACCEPT)
-    @param[in] byte       next byte to decode
-    @return               new state
-
-    @note The function has been edited: a std::array is used.
-
-    @copyright Copyright (c) 2008-2009 Bjoern Hoehrmann <alerts@example.com>
-    @sa http://bjoern.hoehrmann.de/utf-8/decoder/dfa/
-    */
+    /* Copyright (c) 2008-2009 Bjoern Hoehrmann <alerts@example.com> */
     static std::uint8_t decode(std::uint8_t& state, std::uint32_t& codep, const std::uint8_t byte) noexcept
     {
         static const std::array<std::uint8_t, 400> utf8d =
